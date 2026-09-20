@@ -1,0 +1,6 @@
+{
+  "dart.flutterSdkPath": "C:\\Users\\shini\\.vscode\\flutter",
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Users\\shini\\.vscode\\flutter\\bin;${env:PATH}"
+  }
+}

@@ -1,0 +1,804 @@
+{
+  "abbreviations": [
+    {
+      "abbreviation": "BCVA",
+      "english": "Best-Corrected Visual Acuity",
+      "japanese": "矯正視力",
+      "subjects": ["眼科"],
+      "description": "屈折矯正を最良に行った状態で測定する視力。白内障や網膜疾患の評価に用いる。",
+      "related": ["UCVA", "logMAR"]
+    },
+    {
+      "abbreviation": "UCVA",
+      "english": "Uncorrected Visual Acuity",
+      "japanese": "裸眼視力",
+      "subjects": ["眼科"],
+      "description": "眼鏡やコンタクトレンズで矯正せずに測定した視力。初診時の基本的な視機能指標。",
+      "related": ["BCVA", "Sph"]
+    },
+    {
+      "abbreviation": "HM",
+      "english": "Hand Motion",
+      "japanese": "手動弁",
+      "subjects": ["眼科"],
+      "description": "通常の視力表が読めない低視力で、眼前の手の動きを識別できるかで評価する。",
+      "related": ["NLP", "BCVA"]
+    },
+    {
+      "abbreviation": "NLP",
+      "english": "No Light Perception",
+      "japanese": "光覚なし",
+      "subjects": ["眼科"],
+      "description": "光を全く感じない状態。視力予後や重症眼外傷の評価で重要な所見である。",
+      "related": ["HM", "TON"]
+    },
+    {
+      "abbreviation": "ETDRS",
+      "english": "Early Treatment Diabetic Retinopathy Study",
+      "japanese": "早期治療糖尿病網膜症研究視力表",
+      "subjects": ["眼科"],
+      "description": "標準化された視力表・研究基準。糖尿病網膜症や黄斑疾患の視力評価に広く用いる。",
+      "related": ["logMAR", "DRSS"]
+    },
+    {
+      "abbreviation": "logMAR",
+      "english": "Logarithm of the Minimum Angle of Resolution",
+      "japanese": "最小分離角の対数",
+      "subjects": ["眼科"],
+      "description": "視力を連続量として表す指標。値が大きいほど視力は低く、研究や経過比較に適する。",
+      "related": ["ETDRS", "BCVA"]
+    },
+    {
+      "abbreviation": "Sph",
+      "english": "Sphere",
+      "japanese": "球面度数",
+      "subjects": ["眼科"],
+      "description": "眼鏡処方の球面レンズ度数。近視はマイナス、遠視はプラスで記載する。",
+      "related": ["Cyl", "ADD"]
+    },
+    {
+      "abbreviation": "Cyl",
+      "english": "Cylinder",
+      "japanese": "円柱度数",
+      "subjects": ["眼科"],
+      "description": "乱視を矯正する円柱レンズの度数。軸度と組み合わせて眼鏡処方に記載する。",
+      "related": ["Sph", "ADD"]
+    },
+    {
+      "abbreviation": "ADD",
+      "english": "Addition",
+      "japanese": "加入度数",
+      "subjects": ["眼科"],
+      "description": "遠近両用眼鏡などで遠用度数に加える近用のプラス度数。老視矯正に用いる。",
+      "related": ["Sph", "BCVA"]
+    },
+    {
+      "abbreviation": "RGP",
+      "english": "Rigid Gas Permeable Contact Lens",
+      "japanese": "酸素透過性ハードコンタクトレンズ",
+      "subjects": ["眼科"],
+      "description": "酸素透過性をもつ硬質コンタクトレンズ。円錐角膜や不正乱視の矯正にも用いる。",
+      "related": ["SCL", "Dk/t"]
+    },
+    {
+      "abbreviation": "SCL",
+      "english": "Soft Contact Lens",
+      "japanese": "ソフトコンタクトレンズ",
+      "subjects": ["眼科"],
+      "description": "柔らかい素材のコンタクトレンズ。近視・遠視・乱視の矯正および治療用に用いる。",
+      "related": ["RGP", "Dk/t"]
+    },
+    {
+      "abbreviation": "Dk/t",
+      "english": "Oxygen Transmissibility",
+      "japanese": "酸素透過率",
+      "subjects": ["眼科"],
+      "description": "コンタクトレンズの酸素を通す性能を示す指標。Dkをレンズ厚で除して表す。",
+      "related": ["RGP", "SCL"]
+    },
+    {
+      "abbreviation": "ECD",
+      "english": "Endothelial Cell Density",
+      "japanese": "角膜内皮細胞密度",
+      "subjects": ["眼科"],
+      "description": "角膜内皮細胞の密度。白内障手術前や角膜内皮障害の評価で測定する。",
+      "related": ["SPK", "PCIOL"]
+    },
+    {
+      "abbreviation": "SPK",
+      "english": "Superficial Punctate Keratitis",
+      "japanese": "点状表層角膜炎",
+      "subjects": ["眼科"],
+      "description": "角膜上皮の点状びらんを示す所見。ドライアイ、感染症、点眼障害などでみられる。",
+      "related": ["PEE", "DED"]
+    },
+    {
+      "abbreviation": "KP",
+      "english": "Keratic Precipitates",
+      "japanese": "角膜後面沈着物",
+      "subjects": ["眼科"],
+      "description": "角膜後面に付着する炎症細胞の沈着物。前部ぶどう膜炎の活動性を示す。",
+      "related": ["VKH", "ARN"]
+    },
+    {
+      "abbreviation": "ONH",
+      "english": "Optic Nerve Head",
+      "japanese": "視神経乳頭",
+      "subjects": ["眼科"],
+      "description": "眼底で観察する視神経の眼球内入口部。緑内障やうっ血乳頭の評価対象となる。",
+      "related": ["RNFL", "RAPD"]
+    },
+    {
+      "abbreviation": "GAT",
+      "english": "Goldmann Applanation Tonometry",
+      "japanese": "ゴールドマン圧平眼圧測定",
+      "subjects": ["眼科"],
+      "description": "角膜を一定面積だけ圧平して眼圧を測定する標準法。緑内障診療の基準となる。",
+      "related": ["NCT", "OHT"]
+    },
+    {
+      "abbreviation": "NCT",
+      "english": "Non-Contact Tonometry",
+      "japanese": "非接触眼圧測定",
+      "subjects": ["眼科"],
+      "description": "空気圧で角膜を圧平し、接触せずに眼圧を測定するスクリーニング検査。",
+      "related": ["GAT", "OHT"]
+    },
+    {
+      "abbreviation": "FDT",
+      "english": "Frequency Doubling Technology Perimetry",
+      "japanese": "周波数倍増視野検査",
+      "subjects": ["眼科"],
+      "description": "周波数倍増錯視を利用する視野検査。緑内障性視野障害のスクリーニングに用いる。",
+      "related": ["PSD", "VFI"]
+    },
+    {
+      "abbreviation": "PSD",
+      "english": "Pattern Standard Deviation",
+      "japanese": "パターン標準偏差",
+      "subjects": ["眼科"],
+      "description": "視野検査で局所的な感度低下の不均一性を示す指標。緑内障性視野障害の検出に用いる。",
+      "related": ["VFI", "RNFL"]
+    },
+    {
+      "abbreviation": "VFI",
+      "english": "Visual Field Index",
+      "japanese": "視野指数",
+      "subjects": ["眼科"],
+      "description": "視野障害の程度を百分率で表す指標。緑内障の進行を経時的に追跡する際に用いる。",
+      "related": ["PSD", "RNFL"]
+    },
+    {
+      "abbreviation": "OCTA",
+      "english": "Optical Coherence Tomography Angiography",
+      "japanese": "光干渉断層血管撮影",
+      "subjects": ["眼科"],
+      "description": "造影剤を使わず血流信号から網膜・脈絡膜の血管構造を描出する画像検査。",
+      "related": ["ICGA", "CNV"]
+    },
+    {
+      "abbreviation": "ICGA",
+      "english": "Indocyanine Green Angiography",
+      "japanese": "インドシアニングリーン蛍光眼底造影",
+      "subjects": ["眼科"],
+      "description": "インドシアニングリーンを用いる脈絡膜循環の造影検査。黄斑疾患の診断に用いる。",
+      "related": ["OCTA", "PCV"]
+    },
+    {
+      "abbreviation": "UBM",
+      "english": "Ultrasound Biomicroscopy",
+      "japanese": "超音波生体顕微鏡",
+      "subjects": ["眼科"],
+      "description": "高周波超音波で前眼部を高解像度に描出する検査。隅角や毛様体の評価に用いる。",
+      "related": ["PACG", "PACS"]
+    },
+    {
+      "abbreviation": "RNFL",
+      "english": "Retinal Nerve Fiber Layer",
+      "japanese": "網膜神経線維層",
+      "subjects": ["眼科"],
+      "description": "視神経軸索からなる網膜の層。OCTで厚さを測定し、緑内障の構造評価に用いる。",
+      "related": ["ONH", "VFI"]
+    },
+    {
+      "abbreviation": "MGD",
+      "english": "Meibomian Gland Dysfunction",
+      "japanese": "マイボーム腺機能不全",
+      "subjects": ["眼科"],
+      "description": "マイボーム腺の分泌異常による蒸発亢進型ドライアイの主な原因である。",
+      "related": ["DED", "TBUT"]
+    },
+    {
+      "abbreviation": "NLDO",
+      "english": "Nasolacrimal Duct Obstruction",
+      "japanese": "鼻涙管閉塞",
+      "subjects": ["眼科"],
+      "description": "鼻涙管が閉塞し、流涙や涙嚢炎を来す疾患。先天性と後天性がある。",
+      "related": ["CNLDO", "DCRS"]
+    },
+    {
+      "abbreviation": "DCRS",
+      "english": "Dacryocystorhinostomy Surgery",
+      "japanese": "涙嚢鼻腔吻合術",
+      "subjects": ["眼科"],
+      "description": "涙嚢と鼻腔の間に新たな排液路を作る手術。鼻涙管閉塞に対して行う。",
+      "related": ["NLDO", "PANDO"]
+    },
+    {
+      "abbreviation": "PANDO",
+      "english": "Primary Acquired Nasolacrimal Duct Obstruction",
+      "japanese": "原発性後天性鼻涙管閉塞",
+      "subjects": ["眼科"],
+      "description": "明らかな外傷や腫瘍によらない後天性の鼻涙管閉塞。中高年女性に多い。",
+      "related": ["NLDO", "DCRS"]
+    },
+    {
+      "abbreviation": "CNLDO",
+      "english": "Congenital Nasolacrimal Duct Obstruction",
+      "japanese": "先天鼻涙管閉塞",
+      "subjects": ["眼科"],
+      "description": "主に鼻涙管下端の開通不全による乳児の流涙・眼脂。自然軽快することも多い。",
+      "related": ["NLDO", "PANDO"]
+    },
+    {
+      "abbreviation": "DED",
+      "english": "Dry Eye Disease",
+      "japanese": "ドライアイ",
+      "subjects": ["眼科"],
+      "description": "涙液層の異常により眼不快感や視機能障害を来す多因子性の眼表面疾患。",
+      "related": ["TBUT", "MGD"]
+    },
+    {
+      "abbreviation": "TBUT",
+      "english": "Tear Break-Up Time",
+      "japanese": "涙液層破壊時間",
+      "subjects": ["眼科"],
+      "description": "瞬目後に涙液層が破綻するまでの時間。短縮は涙液不安定性を示す。",
+      "related": ["DED", "MGD"]
+    },
+    {
+      "abbreviation": "Schirmer",
+      "english": "Schirmer Test",
+      "japanese": "シルマー試験",
+      "subjects": ["眼科"],
+      "description": "ろ紙の濡れた長さで涙液分泌量を評価する検査。水性涙液減少型ドライアイで用いる。",
+      "related": ["DED", "TBUT"]
+    },
+    {
+      "abbreviation": "PEE",
+      "english": "Punctate Epithelial Erosion",
+      "japanese": "点状角膜上皮びらん",
+      "subjects": ["眼科"],
+      "description": "フルオレセイン染色で観察される角膜上皮の点状欠損。眼表面障害の所見。",
+      "related": ["SPK", "DED"]
+    },
+    {
+      "abbreviation": "EKC",
+      "english": "Epidemic Keratoconjunctivitis",
+      "japanese": "流行性角結膜炎",
+      "subjects": ["眼科"],
+      "description": "アデノウイルスによる感染性結膜炎。強い充血・眼脂を来し、接触感染に注意する。",
+      "related": ["SPK", "HK"]
+    },
+    {
+      "abbreviation": "HK",
+      "english": "Herpetic Keratitis",
+      "japanese": "ヘルペス角膜炎",
+      "subjects": ["眼科"],
+      "description": "単純ヘルペスウイルスなどによる角膜炎。樹枝状角膜炎を呈することがある。",
+      "related": ["EKC", "MK"]
+    },
+    {
+      "abbreviation": "MK",
+      "english": "Microbial Keratitis",
+      "japanese": "感染性角膜炎",
+      "subjects": ["眼科"],
+      "description": "細菌・真菌などによる角膜感染症。角膜潰瘍や穿孔を来しうるため緊急治療を要する。",
+      "related": ["HK", "SPK"]
+    },
+    {
+      "abbreviation": "PCIOL",
+      "english": "Posterior Chamber Intraocular Lens",
+      "japanese": "後房眼内レンズ",
+      "subjects": ["眼科"],
+      "description": "白内障手術後に水晶体嚢内または毛様溝に挿入する眼内レンズ。標準的な留置位置。",
+      "related": ["ACIOL", "PCO"]
+    },
+    {
+      "abbreviation": "ACIOL",
+      "english": "Anterior Chamber Intraocular Lens",
+      "japanese": "前房眼内レンズ",
+      "subjects": ["眼科"],
+      "description": "前房に固定する眼内レンズ。後嚢支持が得られない無水晶体眼で選択されることがある。",
+      "related": ["PCIOL", "PHACO"]
+    },
+    {
+      "abbreviation": "PCO",
+      "english": "Posterior Capsule Opacification",
+      "japanese": "後発白内障",
+      "subjects": ["眼科"],
+      "description": "白内障手術後に後嚢が混濁して視力が低下する状態。Nd:YAGレーザーで治療する。",
+      "related": ["Nd:YAG", "PCIOL"]
+    },
+    {
+      "abbreviation": "Nd:YAG",
+      "english": "Neodymium-Doped Yttrium Aluminium Garnet",
+      "japanese": "ネオジム・ヤグレーザー",
+      "subjects": ["眼科"],
+      "description": "後発白内障の後嚢切開や閉塞隅角の虹彩切開に用いるレーザーの種類。",
+      "related": ["PCO", "LPI"]
+    },
+    {
+      "abbreviation": "CCC",
+      "english": "Continuous Curvilinear Capsulorhexis",
+      "japanese": "連続円形切嚢",
+      "subjects": ["眼科"],
+      "description": "白内障手術で前嚢を連続した円形に切開する手技。眼内レンズ固定の基礎となる。",
+      "related": ["PHACO", "CTR"]
+    },
+    {
+      "abbreviation": "CTR",
+      "english": "Capsular Tension Ring",
+      "japanese": "水晶体嚢拡張リング",
+      "subjects": ["眼科"],
+      "description": "チン小帯脆弱例で水晶体嚢を支持するリング。眼内レンズを安定して固定する。",
+      "related": ["CCC", "PCIOL"]
+    },
+    {
+      "abbreviation": "PEX",
+      "english": "Pseudoexfoliation Syndrome",
+      "japanese": "落屑症候群",
+      "subjects": ["眼科"],
+      "description": "前眼部に異常線維状物質が沈着する加齢関連疾患。続発緑内障や散瞳不良の原因となる。",
+      "related": ["PXG", "PACG"]
+    },
+    {
+      "abbreviation": "PXG",
+      "english": "Pseudoexfoliative Glaucoma",
+      "japanese": "落屑緑内障",
+      "subjects": ["眼科"],
+      "description": "落屑症候群に伴う続発開放隅角緑内障。高眼圧で進行が速いことがある。",
+      "related": ["PEX", "POAG"]
+    },
+    {
+      "abbreviation": "POAG",
+      "english": "Primary Open-Angle Glaucoma",
+      "japanese": "原発開放隅角緑内障",
+      "subjects": ["眼科"],
+      "description": "隅角が開放している慢性進行性の緑内障。視神経障害と対応する視野欠損を来す。",
+      "related": ["OHT", "SLT"]
+    },
+    {
+      "abbreviation": "PACG",
+      "english": "Primary Angle-Closure Glaucoma",
+      "japanese": "原発閉塞隅角緑内障",
+      "subjects": ["眼科"],
+      "description": "隅角閉塞により眼圧上昇と緑内障性視神経障害を生じる疾患。急性発作を起こすことがある。",
+      "related": ["PACS", "LPI"]
+    },
+    {
+      "abbreviation": "PACS",
+      "english": "Primary Angle-Closure Suspect",
+      "japanese": "原発閉塞隅角症疑い",
+      "subjects": ["眼科"],
+      "description": "隅角閉塞のリスクがあるが、眼圧上昇や周辺虹彩前癒着を伴わない状態。",
+      "related": ["PACG", "LPI"]
+    },
+    {
+      "abbreviation": "OHT",
+      "english": "Ocular Hypertension",
+      "japanese": "高眼圧症",
+      "subjects": ["眼科"],
+      "description": "緑内障性視神経障害や視野障害がないにもかかわらず眼圧が高い状態。",
+      "related": ["GAT", "POAG"]
+    },
+    {
+      "abbreviation": "MIGS",
+      "english": "Minimally Invasive Glaucoma Surgery",
+      "japanese": "低侵襲緑内障手術",
+      "subjects": ["眼科"],
+      "description": "小切開で房水流出路に介入する緑内障手術の総称。白内障手術と同時に行われることが多い。",
+      "related": ["POAG", "PHACO"]
+    },
+    {
+      "abbreviation": "SLT",
+      "english": "Selective Laser Trabeculoplasty",
+      "japanese": "選択的レーザー線維柱帯形成術",
+      "subjects": ["眼科"],
+      "description": "線維柱帯に選択的にレーザーを照射して房水流出を促す、開放隅角緑内障の治療。",
+      "related": ["POAG", "MIGS"]
+    },
+    {
+      "abbreviation": "VKH",
+      "english": "Vogt-Koyanagi-Harada Disease",
+      "japanese": "フォークト・小柳・原田病",
+      "subjects": ["眼科"],
+      "description": "メラノサイトを標的とする自己免疫性ぶどう膜炎。両眼性漿液性網膜剥離を来す。",
+      "related": ["KP", "ICGA"]
+    },
+    {
+      "abbreviation": "APMPPE",
+      "english": "Acute Posterior Multifocal Placoid Pigment Epitheliopathy",
+      "japanese": "急性後部多発性斑状色素上皮症",
+      "subjects": ["眼科"],
+      "description": "若年者にみられる急性の後部ぶどう膜炎。眼底に多発する淡黄白色病変を認める。",
+      "related": ["MEWDS", "PIC"]
+    },
+    {
+      "abbreviation": "MEWDS",
+      "english": "Multiple Evanescent White Dot Syndrome",
+      "japanese": "多発消失性白点症候群",
+      "subjects": ["眼科"],
+      "description": "片眼の視力低下・光視症を来す後部ぶどう膜炎。眼底に一過性の白点病変を認める。",
+      "related": ["APMPPE", "PIC"]
+    },
+    {
+      "abbreviation": "PIC",
+      "english": "Punctate Inner Choroidopathy",
+      "japanese": "多発性内側脈絡膜症",
+      "subjects": ["眼科"],
+      "description": "近視の若年女性に多い後部ぶどう膜炎。脈絡膜新生血管を合併して視力低下を来しうる。",
+      "related": ["MFC", "CNV"]
+    },
+    {
+      "abbreviation": "MFC",
+      "english": "Multifocal Choroiditis",
+      "japanese": "多発性脈絡膜炎",
+      "subjects": ["眼科"],
+      "description": "網膜色素上皮・脈絡膜の多発炎症病変を特徴とする後部ぶどう膜炎。CNVを合併しうる。",
+      "related": ["PIC", "CNV"]
+    },
+    {
+      "abbreviation": "ARN",
+      "english": "Acute Retinal Necrosis",
+      "japanese": "急性網膜壊死",
+      "subjects": ["眼科"],
+      "description": "ヘルペスウイルスによる壊死性網膜炎。急速に進行し網膜剥離を合併する眼科救急である。",
+      "related": ["RRD", "VKH"]
+    },
+    {
+      "abbreviation": "RRD",
+      "english": "Rhegmatogenous Retinal Detachment",
+      "japanese": "裂孔原性網膜剥離",
+      "subjects": ["眼科"],
+      "description": "網膜裂孔を通じて液化硝子体が網膜下に流入して起こる網膜剥離。早期手術を要する。",
+      "related": ["PVD", "PPV"]
+    },
+    {
+      "abbreviation": "TRD",
+      "english": "Tractional Retinal Detachment",
+      "japanese": "牽引性網膜剥離",
+      "subjects": ["眼科"],
+      "description": "増殖膜の牽引により起こる網膜剥離。増殖糖尿病網膜症で代表的にみられる。",
+      "related": ["PRP", "IVI"]
+    },
+    {
+      "abbreviation": "RD",
+      "english": "Retinal Detachment",
+      "japanese": "網膜剥離",
+      "subjects": ["眼科"],
+      "description": "感覚網膜が網膜色素上皮から剥離した状態の総称。裂孔原性、牽引性、滲出性に分類する。",
+      "related": ["RRD", "TRD"]
+    },
+    {
+      "abbreviation": "PVD",
+      "english": "Posterior Vitreous Detachment",
+      "japanese": "後部硝子体剥離",
+      "subjects": ["眼科"],
+      "description": "硝子体皮質が網膜から剥離する加齢性変化。飛蚊症を来し、網膜裂孔の確認が必要となる。",
+      "related": ["RRD", "VMT"]
+    },
+    {
+      "abbreviation": "VMT",
+      "english": "Vitreomacular Traction",
+      "japanese": "硝子体黄斑牽引",
+      "subjects": ["眼科"],
+      "description": "黄斑部に残存した硝子体癒着が牽引を生じ、網膜形態や視機能に障害を来す状態。",
+      "related": ["VMA", "MH"]
+    },
+    {
+      "abbreviation": "VMA",
+      "english": "Vitreomacular Adhesion",
+      "japanese": "硝子体黄斑癒着",
+      "subjects": ["眼科"],
+      "description": "後部硝子体剥離の過程で黄斑部に硝子体癒着が残る所見。牽引がなければ病的ではない。",
+      "related": ["VMT", "PVD"]
+    },
+    {
+      "abbreviation": "ERM",
+      "english": "Epiretinal Membrane",
+      "japanese": "網膜前膜",
+      "subjects": ["眼科"],
+      "description": "黄斑表面に増殖する膜が網膜を牽引する疾患。変視症や視力低下を来し、手術適応を判断する。",
+      "related": ["VMT", "PPV"]
+    },
+    {
+      "abbreviation": "CSME",
+      "english": "Clinically Significant Macular Edema",
+      "japanese": "臨床的に重要な黄斑浮腫",
+      "subjects": ["眼科"],
+      "description": "ETDRSで定義された糖尿病黄斑浮腫の重症概念。視力予後と治療適応の判断に用いる。",
+      "related": ["CI-DME", "DRSS"]
+    },
+    {
+      "abbreviation": "CI-DME",
+      "english": "Center-Involved Diabetic Macular Edema",
+      "japanese": "中心窩を含む糖尿病黄斑浮腫",
+      "subjects": ["眼科"],
+      "description": "OCTで中心窩を含む糖尿病黄斑浮腫。視力への影響が大きく、抗VEGF治療の適応を検討する。",
+      "related": ["CSME", "IVI"]
+    },
+    {
+      "abbreviation": "NCI-DME",
+      "english": "Non-Center-Involved Diabetic Macular Edema",
+      "japanese": "中心窩を含まない糖尿病黄斑浮腫",
+      "subjects": ["眼科"],
+      "description": "中心窩を含まない糖尿病黄斑浮腫。経過観察や局所治療を含めて視機能とともに判断する。",
+      "related": ["CI-DME", "CSME"]
+    },
+    {
+      "abbreviation": "DRSS",
+      "english": "Diabetic Retinopathy Severity Scale",
+      "japanese": "糖尿病網膜症重症度分類",
+      "subjects": ["眼科"],
+      "description": "糖尿病網膜症を眼底所見により重症度分類する尺度。進行リスクとフォロー間隔の目安となる。",
+      "related": ["CSME", "IRMA"]
+    },
+    {
+      "abbreviation": "IRMA",
+      "english": "Intraretinal Microvascular Abnormalities",
+      "japanese": "網膜内細小血管異常",
+      "subjects": ["眼科"],
+      "description": "糖尿病網膜症でみられる網膜内の異常血管。重症非増殖期を示す重要な眼底所見。",
+      "related": ["DRSS", "NVD"]
+    },
+    {
+      "abbreviation": "NVD",
+      "english": "Neovascularization of the Disc",
+      "japanese": "乳頭部新生血管",
+      "subjects": ["眼科"],
+      "description": "視神経乳頭上の新生血管。増殖糖尿病網膜症などでみられ、硝子体出血の原因となる。",
+      "related": ["PRP", "IVI"]
+    },
+    {
+      "abbreviation": "AMD",
+      "english": "Age-Related Macular Degeneration",
+      "japanese": "加齢黄斑変性",
+      "subjects": ["眼科"],
+      "description": "加齢に伴う黄斑部の変性疾患。滲出型では脈絡膜新生血管により中心視力が低下する。",
+      "related": ["nAMD", "MNV"]
+    },
+    {
+      "abbreviation": "nAMD",
+      "english": "Neovascular Age-Related Macular Degeneration",
+      "japanese": "滲出型加齢黄斑変性",
+      "subjects": ["眼科"],
+      "description": "黄斑部の新生血管を伴う加齢黄斑変性。抗VEGF薬の硝子体内注射が標準治療である。",
+      "related": ["AMD", "MNV"]
+    },
+    {
+      "abbreviation": "CNV",
+      "english": "Choroidal Neovascularization",
+      "japanese": "脈絡膜新生血管",
+      "subjects": ["眼科"],
+      "description": "脈絡膜から網膜下へ伸展する異常血管。AMDや近視性黄斑症で出血・滲出を生じる。",
+      "related": ["MNV", "IVI"]
+    },
+    {
+      "abbreviation": "MNV",
+      "english": "Macular Neovascularization",
+      "japanese": "黄斑部新生血管",
+      "subjects": ["眼科"],
+      "description": "黄斑部に生じる新生血管の総称。AMDで用いられる用語で、OCTや造影で評価する。",
+      "related": ["CNV", "nAMD"]
+    },
+    {
+      "abbreviation": "RPD",
+      "english": "Reticular Pseudodrusen",
+      "japanese": "網状偽ドルーゼン",
+      "subjects": ["眼科"],
+      "description": "網膜下ドルーゼン様沈着物。加齢黄斑変性の進行や地図状萎縮のリスク因子である。",
+      "related": ["AMD", "nAMD"]
+    },
+    {
+      "abbreviation": "RVO",
+      "english": "Retinal Vein Occlusion",
+      "japanese": "網膜静脈閉塞症",
+      "subjects": ["眼科"],
+      "description": "網膜静脈の閉塞により出血や黄斑浮腫を来す疾患群。全身の血管危険因子を評価する。",
+      "related": ["CRVO", "BRVO"]
+    },
+    {
+      "abbreviation": "CRVO",
+      "english": "Central Retinal Vein Occlusion",
+      "japanese": "網膜中心静脈閉塞症",
+      "subjects": ["眼科"],
+      "description": "網膜中心静脈の閉塞による広範な網膜出血・黄斑浮腫。虚血型では新生血管に注意する。",
+      "related": ["RVO", "BRVO"]
+    },
+    {
+      "abbreviation": "BRVO",
+      "english": "Branch Retinal Vein Occlusion",
+      "japanese": "網膜静脈分枝閉塞症",
+      "subjects": ["眼科"],
+      "description": "網膜静脈の分枝部での閉塞。該当象限の出血と黄斑浮腫を生じ、抗VEGF治療を行う。",
+      "related": ["RVO", "CRVO"]
+    },
+    {
+      "abbreviation": "HRVO",
+      "english": "Hemispheric Retinal Vein Occlusion",
+      "japanese": "半側網膜静脈閉塞症",
+      "subjects": ["眼科"],
+      "description": "網膜静脈の上半側または下半側に生じる閉塞。中心静脈閉塞と分枝閉塞の中間的病態を示す。",
+      "related": ["RVO", "CRVO"]
+    },
+    {
+      "abbreviation": "OIS",
+      "english": "Ocular Ischemic Syndrome",
+      "japanese": "眼虚血症候群",
+      "subjects": ["眼科"],
+      "description": "高度な頸動脈狭窄などによる慢性眼虚血。網膜出血や虹彩新生血管を伴うことがある。",
+      "related": ["CRAO", "RVO"]
+    },
+    {
+      "abbreviation": "CRAO",
+      "english": "Central Retinal Artery Occlusion",
+      "japanese": "網膜中心動脈閉塞症",
+      "subjects": ["眼科"],
+      "description": "網膜中心動脈の急性閉塞による突然の無痛性視力低下。脳血管疾患としての緊急評価も必要。",
+      "related": ["OIS", "AAION"]
+    },
+    {
+      "abbreviation": "AION",
+      "english": "Anterior Ischemic Optic Neuropathy",
+      "japanese": "前部虚血性視神経症",
+      "subjects": ["眼科"],
+      "description": "視神経乳頭の虚血で起こる急性視神経障害。視力低下と視野欠損、乳頭浮腫を認める。",
+      "related": ["NAION", "AAION"]
+    },
+    {
+      "abbreviation": "NAION",
+      "english": "Nonarteritic Anterior Ischemic Optic Neuropathy",
+      "japanese": "非動脈炎性前部虚血性視神経症",
+      "subjects": ["眼科"],
+      "description": "巨細胞性動脈炎を伴わない前部虚血性視神経症。中高年の突然の無痛性視力低下の原因。",
+      "related": ["AION", "AAION"]
+    },
+    {
+      "abbreviation": "AAION",
+      "english": "Arteritic Anterior Ischemic Optic Neuropathy",
+      "japanese": "動脈炎性前部虚血性視神経症",
+      "subjects": ["眼科"],
+      "description": "巨細胞性動脈炎に伴う前部虚血性視神経症。対側眼失明を防ぐため緊急治療を要する。",
+      "related": ["AION", "NAION"]
+    },
+    {
+      "abbreviation": "ONTT",
+      "english": "Optic Neuritis Treatment Trial",
+      "japanese": "視神経炎治療試験",
+      "subjects": ["眼科"],
+      "description": "視神経炎の治療と予後を検討した代表的臨床研究。ステロイド治療の理解で参照される。",
+      "related": ["RAPD", "AION"]
+    },
+    {
+      "abbreviation": "RAPD",
+      "english": "Relative Afferent Pupillary Defect",
+      "japanese": "相対的求心性瞳孔障害",
+      "subjects": ["眼科"],
+      "description": "交互対光反射でみられる求心路障害の所見。片側の重度視神経・網膜障害を示唆する。",
+      "related": ["ONH", "AION"]
+    },
+    {
+      "abbreviation": "ESO",
+      "english": "Esophoria",
+      "japanese": "内斜位",
+      "subjects": ["眼科"],
+      "description": "融像で代償されている内方への眼位偏位。遮閉により顕在化し、眼精疲労の原因となる。",
+      "related": ["EXO", "XT"]
+    },
+    {
+      "abbreviation": "EXO",
+      "english": "Exophoria",
+      "japanese": "外斜位",
+      "subjects": ["眼科"],
+      "description": "融像で代償されている外方への眼位偏位。疲労時に顕在化し、間欠性外斜視へ移行しうる。",
+      "related": ["ESO", "XT"]
+    },
+    {
+      "abbreviation": "XT",
+      "english": "Exotropia",
+      "japanese": "外斜視",
+      "subjects": ["眼科"],
+      "description": "一眼または両眼が外方へ偏位する斜視。小児では両眼視機能と弱視の評価が重要である。",
+      "related": ["EXO", "ESO"]
+    },
+    {
+      "abbreviation": "TON",
+      "english": "Traumatic Optic Neuropathy",
+      "japanese": "外傷性視神経症",
+      "subjects": ["眼科"],
+      "description": "頭顔面外傷に伴う視神経障害。急性視力低下とRAPDを認めることがあり、緊急評価を要する。",
+      "related": ["RAPD", "NLP"]
+    },
+    {
+      "abbreviation": "OGI",
+      "english": "Open Globe Injury",
+      "japanese": "開放性眼球損傷",
+      "subjects": ["眼科"],
+      "description": "眼球壁の全層損傷を伴う重症眼外傷。感染予防と眼球修復のため緊急手術を要する。",
+      "related": ["IOFB", "NLP"]
+    },
+    {
+      "abbreviation": "IOFB",
+      "english": "Intraocular Foreign Body",
+      "japanese": "眼内異物",
+      "subjects": ["眼科"],
+      "description": "外傷により異物が眼球内へ侵入した状態。CT評価と早期摘出により感染・中毒を防ぐ。",
+      "related": ["OGI", "PPV"]
+    },
+    {
+      "abbreviation": "UM",
+      "english": "Uveal Melanoma",
+      "japanese": "ぶどう膜悪性黒色腫",
+      "subjects": ["眼科"],
+      "description": "脈絡膜・毛様体・虹彩に生じる悪性黒色腫。成人の代表的な原発性眼内悪性腫瘍。",
+      "related": ["OSSN", "UBM"]
+    },
+    {
+      "abbreviation": "OSSN",
+      "english": "Ocular Surface Squamous Neoplasia",
+      "japanese": "眼表面扁平上皮腫瘍",
+      "subjects": ["眼科"],
+      "description": "結膜・角膜の扁平上皮系腫瘍の総称。異形成から扁平上皮癌までを含む。",
+      "related": ["UM", "SPK"]
+    },
+    {
+      "abbreviation": "LPI",
+      "english": "Laser Peripheral Iridotomy",
+      "japanese": "レーザー虹彩切開術",
+      "subjects": ["眼科"],
+      "description": "周辺虹彩に孔を作って瞳孔ブロックを解除するレーザー治療。閉塞隅角の予防・治療に行う。",
+      "related": ["PACG", "PACS"]
+    },
+    {
+      "abbreviation": "IVI",
+      "english": "Intravitreal Injection",
+      "japanese": "硝子体内注射",
+      "subjects": ["眼科"],
+      "description": "抗VEGF薬やステロイドを硝子体内へ投与する治療。黄斑浮腫や新生血管疾患に用いる。",
+      "related": ["IVR", "IVA"]
+    },
+    {
+      "abbreviation": "IVR",
+      "english": "Intravitreal Ranibizumab",
+      "japanese": "ラニビズマブ硝子体内注射",
+      "subjects": ["眼科"],
+      "description": "抗VEGF薬ラニビズマブの硝子体内注射。滲出型AMDや黄斑浮腫の治療に用いる。",
+      "related": ["IVI", "IVA"]
+    },
+    {
+      "abbreviation": "IVA",
+      "english": "Intravitreal Aflibercept",
+      "japanese": "アフリベルセプト硝子体内注射",
+      "subjects": ["眼科"],
+      "description": "抗VEGF薬アフリベルセプトの硝子体内注射。AMD、糖尿病黄斑浮腫などに用いる。",
+      "related": ["IVI", "IVR"]
+    },
+    {
+      "abbreviation": "IVB",
+      "english": "Intravitreal Bevacizumab",
+      "japanese": "ベバシズマブ硝子体内注射",
+      "subjects": ["眼科"],
+      "description": "抗VEGF薬ベバシズマブの硝子体内注射。新生血管疾患や黄斑浮腫に使用される。",
+      "related": ["IVI", "IVA"]
+    },
+    {
+      "abbreviation": "PHACO",
+      "english": "Phacoemulsification",
+      "japanese": "超音波乳化吸引術",
+      "subjects": ["眼科"],
+      "description": "超音波で白内障を乳化して吸引する標準的白内障手術。通常は眼内レンズを同時挿入する。",
+      "related": ["CCC", "PCIOL"]
+    }
+  ]
+}

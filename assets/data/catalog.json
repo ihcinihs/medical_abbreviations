@@ -1,0 +1,100 @@
+{
+  "sources": [
+    {
+      "subject": "一般医学",
+      "path": "assets/data/medical_abbreviations.json"
+    },
+    {
+      "subject": "細胞生物学",
+      "path": "assets/data/medical_abbreviations_extra.json"
+    },
+    {
+      "subject": "産婦人科学",
+      "path": "assets/data/obstetrics_gynecology.json"
+    },
+    {
+      "subject": "小児科学",
+      "path": "assets/data/pediatrics.json"
+    },
+    {
+      "subject": "生化学",
+      "path": "assets/data/biochemistry.json"
+    },
+    {
+      "subject": "解剖学",
+      "path": "assets/data/anatomy.json"
+    },
+    {
+      "subject": "生理学",
+      "path": "assets/data/physiology.json"
+    },
+    {
+      "subject": "病理学",
+      "path": "assets/data/pathology.json"
+    },
+    {
+      "subject": "泌尿器科",
+      "path": "assets/data/urology.json"
+    },
+    {
+      "subject": "皮膚科",
+      "path": "assets/data/dermatology.json"
+    },
+    {
+      "subject": "眼科",
+      "path": "assets/data/ophthalmology.json"
+    },
+    {
+      "subject": "耳鼻咽喉科・頭頸部外科",
+      "path": "assets/data/otolaryngology_head_neck_surgery.json"
+    },
+    {
+      "subject": "精神科",
+      "path": "assets/data/psychiatry.json"
+    },
+    {
+      "subject": "麻酔科",
+      "path": "assets/data/anesthesiology.json"
+    },
+    {
+      "subject": "放射線科",
+      "path": "assets/data/radiology.json"
+    },
+    {
+      "subject": "リハビリテーション科",
+      "path": "assets/data/rehabilitation.json"
+    },
+    {
+      "subject": "形成外科",
+      "path": "assets/data/plastic_surgery.json"
+    },
+    {
+      "subject": "脳神経外科",
+      "path": "assets/data/neurosurgery.json"
+    },
+    {
+      "subject": "乳腺外科学",
+      "path": "assets/data/breast_surgery.json"
+    },
+    {
+      "subject": "臓器別外科学",
+      "path": "assets/data/organ_surgery.json"
+    },
+    {
+      "subject": "腫瘍内科・緩和医療",
+      "path": "assets/data/medical_oncology_palliative_care.json"
+    },
+    {
+      "subject": "総合診療・老年医学",
+      "path": "assets/data/general_medicine_geriatrics.json"
+    },
+    {
+      "subject": "臨床検査医学",
+      "path": "assets/data/clinical_laboratory_medicine.json"
+    },
+    {
+      "subject": "公衆衛生・医療安全",
+      "path": "assets/data/public_health_medical_safety.json"
+    }
+  ]
+}

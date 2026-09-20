@@ -1,0 +1,71 @@
+{
+  "abbreviations": [
+    {"abbreviation":"PUSH","english":"Pressure Ulcer Scale for Healing","japanese":"褥瘡治癒評価スケール","subjects":["形成外科"],"description":"創面積、滲出液量、組織型から褥瘡の治癒経過を点数化する評価尺度。","related":["TIME","WBP"]},
+    {"abbreviation":"TIME","english":"Tissue, Infection/Inflammation, Moisture, Edge","japanese":"TIME創傷評価フレームワーク","subjects":["形成外科"],"description":"組織、感染・炎症、湿潤、創縁を系統的に評価して創傷治療を計画する枠組み。","related":["PUSH","WBP"]},
+
+    {"abbreviation":"WBP","english":"Wound Bed Preparation","japanese":"創床準備","subjects":["形成外科"],"description":"壊死組織除去、感染制御、湿潤管理などにより創傷治癒に適した創床を整える考え方。","related":["TIME","PUSH"]},
+
+    {"abbreviation":"Lund-Browder","english":"Lund and Browder Chart","japanese":"ルンド・ブラウダー表","subjects":["形成外科"],"description":"年齢ごとの体表面積比を用いて熱傷面積を算出する標準的な評価表。","related":["ABSI","DPT"]},
+    {"abbreviation":"ABSI","english":"Abbreviated Burn Severity Index","japanese":"簡易熱傷重症度指数","subjects":["形成外科"],"description":"年齢、性別、熱傷面積、深達度、吸入損傷から熱傷の重症度を評価する指標。","related":["Lund-Browder","FT"]},
+    {"abbreviation":"DPT","english":"Deep Partial-Thickness Burn","japanese":"深達性II度熱傷","subjects":["形成外科"],"description":"真皮深層まで及ぶ熱傷。治癒遷延や瘢痕拘縮のリスクがあり、植皮を要することがある。","related":["FT","ABSI"]},
+    {"abbreviation":"FT","english":"Full-Thickness Burn","japanese":"全層熱傷","subjects":["形成外科"],"description":"皮膚全層を越えて損傷するIII度熱傷。自然治癒は期待できず、早期切除・植皮を検討する。","related":["DPT","STSG"]},
+    {"abbreviation":"HBOT","english":"Hyperbaric Oxygen Therapy","japanese":"高気圧酸素治療","subjects":["形成外科"],"description":"高圧環境で高濃度酸素を吸入させる治療。重症熱傷や難治性創傷の補助療法となる。","related":["DPT","WBP"]},
+
+    {"abbreviation":"PU","english":"Pressure Ulcer","japanese":"褥瘡","subjects":["形成外科"],"description":"圧迫やずれで生じる局所皮膚・軟部組織の損傷。除圧、栄養、創傷管理を組み合わせる。","related":["DTPI","PUSH"]},
+    {"abbreviation":"DTPI","english":"Deep Tissue Pressure Injury","japanese":"深部組織損傷褥瘡","subjects":["形成外科"],"description":"持続的な圧・ずれにより深部軟部組織が損傷した褥瘡。暗赤色・紫色の皮膚変化を示す。","related":["PU","NPIAP"]},
+    {"abbreviation":"NPIAP","english":"National Pressure Injury Advisory Panel","japanese":"米国褥瘡損傷諮問委員会","subjects":["形成外科"],"description":"褥瘡の定義、病期分類、予防・治療に関する指針を示す専門組織。","related":["PU","DTPI"]},
+    {"abbreviation":"VLU","english":"Venous Leg Ulcer","japanese":"静脈性下腿潰瘍","subjects":["形成外科"],"description":"慢性静脈不全を背景に生じる下腿潰瘍。圧迫療法と静脈疾患の評価・治療が重要である。","related":["WBP","PU"]},
+
+    {"abbreviation":"ZMC","english":"Zygomaticomaxillary Complex","japanese":"頬骨上顎複合体","subjects":["形成外科"],"description":"頬骨と上顎骨の接合部。ZMC骨折では顔面の扁平化、開口障害、眼窩症状を評価する。","related":["CRT","PMS"]},
+
+    {"abbreviation":"PIN","english":"Posterior Interosseous Nerve","japanese":"後骨間神経","subjects":["形成外科"],"description":"橈骨神経深枝の終末枝。損傷では指・母指伸展が障害され、手外傷で評価する。","related":["FPL","TAM"]},
+    {"abbreviation":"FPL","english":"Flexor Pollicis Longus","japanese":"長母指屈筋","subjects":["形成外科"],"description":"母指IP関節を屈曲する腱・筋。母指屈曲障害では腱損傷や前骨間神経障害を考える。","related":["PIN","TAM"]},
+    {"abbreviation":"TAM","english":"Total Active Motion","japanese":"総活動可動域","subjects":["形成外科"],"description":"手指各関節の能動屈曲角度から伸展不足角度を引いた値。手外傷後の機能評価に用いる。","related":["DASH","FPL"]},
+    {"abbreviation":"DASH","english":"Disabilities of the Arm, Shoulder and Hand","japanese":"上肢機能障害質問票","subjects":["形成外科"],"description":"上肢の症状と日常生活・仕事・余暇活動への支障を患者報告で評価する質問票。","related":["TAM","PIN"]},
+
+    {"abbreviation":"CFM","english":"Craniofacial Microsomia","japanese":"頭蓋顔面小症","subjects":["形成外科"],"description":"主に片側の下顎、耳介、顔面軟部組織の低形成を示す先天性頭蓋顔面異常。","related":["PRS","MFD"]},
+    {"abbreviation":"PRS","english":"Pierre Robin Sequence","japanese":"ピエール・ロバン連鎖","subjects":["形成外科"],"description":"小下顎、舌根沈下、気道閉塞を主徴とし、口蓋裂を伴うことが多い先天異常。","related":["CFM","CLP"]},
+    {"abbreviation":"MFD","english":"Mandibulofacial Dysostosis","japanese":"下顎顔面異骨症","subjects":["形成外科"],"description":"下顎・頬骨低形成や耳介奇形などを示す先天性頭蓋顔面異常の総称。","related":["CFM","PRS"]},
+
+    {"abbreviation":"CLP","english":"Cleft Lip and Palate","japanese":"口唇口蓋裂","subjects":["形成外科"],"description":"口唇と口蓋の裂を伴う先天異常。哺乳、発音、咬合、顔面発育を長期的に支援する。","related":["UCLP","BCLP"]},
+    {"abbreviation":"UCLP","english":"Unilateral Cleft Lip and Palate","japanese":"片側性口唇口蓋裂","subjects":["形成外科"],"description":"片側に生じる口唇口蓋裂。裂の形態に応じて段階的な形成外科治療を行う。","related":["CLP","BCLP"]},
+    {"abbreviation":"BCLP","english":"Bilateral Cleft Lip and Palate","japanese":"両側性口唇口蓋裂","subjects":["形成外科"],"description":"両側に生じる口唇口蓋裂。前顎突出や鼻変形を含めた長期的な治療計画を要する。","related":["CLP","UCLP"]},
+    {"abbreviation":"VPI","english":"Velopharyngeal Insufficiency","japanese":"鼻咽腔閉鎖不全","subjects":["形成外科"],"description":"発話時の鼻咽腔閉鎖が不十分な状態。口蓋裂術後の開鼻声や構音障害の原因となる。","related":["CLP","PRS"]},
+
+    {"abbreviation":"IH","english":"Infantile Hemangioma","japanese":"乳児血管腫","subjects":["形成外科"],"description":"乳児期に増殖後、自然退縮することが多い良性血管性腫瘍。部位・合併症で治療を判断する。","related":["PHACE","ISSVA"]},
+    {"abbreviation":"PHACE","english":"Posterior Fossa Malformations, Hemangioma, Arterial Anomalies, Cardiac Defects, Eye Abnormalities","japanese":"PHACE症候群","subjects":["形成外科"],"description":"大型顔面血管腫に脳・血管・心・眼の異常を伴い得る症候群。全身評価が必要である。","related":["IH","ISSVA"]},
+    {"abbreviation":"ISSVA","english":"International Society for the Study of Vascular Anomalies","japanese":"国際血管異常学会分類","subjects":["形成外科"],"description":"血管腫と血管奇形を区別して整理する国際分類。診断と治療方針の共通基盤となる。","related":["IH","PHACE"]},
+
+    {"abbreviation":"MPNST","english":"Malignant Peripheral Nerve Sheath Tumor","japanese":"悪性末梢神経鞘腫瘍","subjects":["形成外科"],"description":"末梢神経由来の悪性軟部腫瘍。神経線維腫症1型に合併することがあり、広範切除を要する。","related":["PIN","DASH"]},
+
+    {"abbreviation":"DIEP","english":"Deep Inferior Epigastric Perforator Flap","japanese":"深下腹壁動脈穿通枝皮弁","subjects":["形成外科"],"description":"腹直筋を温存し深下腹壁動脈穿通枝を用いる自家組織乳房再建の代表的な遊離皮弁。","related":["TRAM","IBR"]},
+    {"abbreviation":"TRAM","english":"Transverse Rectus Abdominis Myocutaneous Flap","japanese":"横軸腹直筋皮弁","subjects":["形成外科"],"description":"腹直筋と皮膚脂肪組織を用いる乳房再建皮弁。腹壁機能低下やヘルニアに注意する。","related":["DIEP","IBR"]},
+    {"abbreviation":"NSM","english":"Nipple-Sparing Mastectomy","japanese":"乳頭温存乳房切除術","subjects":["形成外科"],"description":"乳頭乳輪を温存して乳腺を切除する術式。適応を選び、乳房再建と組み合わせる。","related":["IBR","DIEP"]},
+    {"abbreviation":"IBR","english":"Immediate Breast Reconstruction","japanese":"一次乳房再建","subjects":["形成外科"],"description":"乳房切除と同時に行う乳房再建。自家組織または人工物を用い、心理的負担軽減を図る。","related":["DIEP","NSM"]},
+
+    {"abbreviation":"RFFF","english":"Radial Forearm Free Flap","japanese":"前腕皮弁","subjects":["形成外科"],"description":"橈骨動脈を血管柄とする薄い遊離皮弁。口腔・咽頭など頭頸部再建で広く用いる。","related":["PMMC","MVA"]},
+    {"abbreviation":"PMMC","english":"Pectoralis Major Myocutaneous Flap","japanese":"大胸筋皮弁","subjects":["形成外科"],"description":"大胸筋と胸肩峰動脈系を利用する有茎皮弁。頭頸部再建の救済皮弁として重要である。","related":["RFFF","MVA"]},
+
+    {"abbreviation":"LD","english":"Latissimus Dorsi Flap","japanese":"広背筋皮弁","subjects":["形成外科"],"description":"広背筋を用いる有茎または遊離皮弁。乳房、胸壁、四肢などの軟部組織再建に用いる。","related":["VRAM","FG"]},
+    {"abbreviation":"VRAM","english":"Vertical Rectus Abdominis Myocutaneous Flap","japanese":"縦軸腹直筋皮弁","subjects":["形成外科"],"description":"腹直筋を縦方向に用いる筋皮弁。会陰・骨盤・腹壁などの大きな組織欠損再建に有用。","related":["LD","FG"]},
+
+    {"abbreviation":"STSG","english":"Split-Thickness Skin Graft","japanese":"分層植皮","subjects":["形成外科"],"description":"表皮と真皮の一部を採取する植皮。広範囲熱傷や肉芽創の被覆に用いる。","related":["FTSG","MEEK"]},
+    {"abbreviation":"FTSG","english":"Full-Thickness Skin Graft","japanese":"全層植皮","subjects":["形成外科"],"description":"表皮と真皮全層を採取する植皮。拘縮を抑えたい顔面・手指などの再建で用いる。","related":["STSG","MEEK"]},
+    {"abbreviation":"MEEK","english":"Meek Micrografting Technique","japanese":"ミーク植皮法","subjects":["形成外科"],"description":"採皮片を小片化・拡大して用いる植皮法。広範囲熱傷で限られた皮膚を有効に活用する。","related":["STSG","FTSG"]},
+
+    {"abbreviation":"MVA","english":"Microvascular Anastomosis","japanese":"微小血管吻合","subjects":["形成外科"],"description":"顕微鏡下に小血管を吻合する手技。遊離皮弁移植や再植術の血行再建で不可欠である。","related":["RFFF","DIEP"]},
+
+    {"abbreviation":"VLNT","english":"Vascularized Lymph Node Transfer","japanese":"血管柄付きリンパ節移植","subjects":["形成外科"],"description":"血管柄を保ったリンパ節を移植してリンパ還流改善を図るリンパ浮腫手術。","related":["LVA","CDT"]},
+    {"abbreviation":"LVA","english":"Lymphaticovenular Anastomosis","japanese":"リンパ管静脈吻合","subjects":["形成外科"],"description":"リンパ管と細静脈を顕微鏡下に吻合し、リンパ液を静脈系へ迂回させる手術。","related":["ICG-L","VLNT"]},
+    {"abbreviation":"ICG-L","english":"Indocyanine Green Lymphography","japanese":"インドシアニングリーンリンパ管造影","subjects":["形成外科"],"description":"蛍光造影剤を用いて表在リンパ流を可視化する検査。リンパ浮腫の病期評価や手術計画に用いる。","related":["LVA","VLNT"]},
+    {"abbreviation":"CDT","english":"Complex Decongestive Therapy","japanese":"複合的理学療法","subjects":["形成外科"],"description":"スキンケア、徒手リンパドレナージ、圧迫、運動療法を組み合わせるリンパ浮腫の基本治療。","related":["MLD","LVA"]},
+    {"abbreviation":"MLD","english":"Manual Lymphatic Drainage","japanese":"用手的リンパドレナージ","subjects":["形成外科"],"description":"皮膚をやさしく誘導してリンパ還流を促す手技。複合的理学療法の一部として行う。","related":["CDT","VLNT"]},
+
+    {"abbreviation":"HTS","english":"Hypertrophic Scar","japanese":"肥厚性瘢痕","subjects":["形成外科"],"description":"創傷部位に限局して隆起・硬化する瘢痕。熱傷後や手術後に拘縮・掻痒を伴うことがある。","related":["POSAS","PDL"]},
+    {"abbreviation":"POSAS","english":"Patient and Observer Scar Assessment Scale","japanese":"患者・観察者瘢痕評価スケール","subjects":["形成外科"],"description":"患者と医療者の双方が瘢痕の色、厚み、硬さ、症状などを評価する尺度。","related":["HTS","PDL"]},
+    {"abbreviation":"PDL","english":"Pulsed Dye Laser","japanese":"パルスダイレーザー","subjects":["形成外科"],"description":"血管選択性をもつレーザー。赤色調の肥厚性瘢痕やケロイドの発赤・症状軽減に用いる。","related":["HTS","POSAS"]},
+
+    {"abbreviation":"CRT","english":"Capillary Refill Time","japanese":"毛細血管再充満時間","subjects":["形成外科"],"description":"圧迫後に皮膚色が戻るまでの時間。遊離皮弁など再建組織の末梢循環確認に用いる。","related":["PMS","MVA"]},
+    {"abbreviation":"PMS","english":"Pulse, Motor, Sensory","japanese":"脈拍・運動・感覚評価","subjects":["形成外科"],"description":"四肢外傷・再建後に脈拍、運動、感覚を確認する神経血管学的観察項目。","related":["CRT","ZMC"]}
+  ]
+}

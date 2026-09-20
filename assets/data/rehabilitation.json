@@ -1,0 +1,69 @@
+{
+  "abbreviations": [
+    {"abbreviation":"PM&R","english":"Physical Medicine and Rehabilitation","japanese":"リハビリテーション医学","subjects":["リハビリテーション科"],"description":"機能障害の診断、治療、生活・社会参加支援を扱う医学分野。リハビリテーション処方の基盤となる。","related":["COPM","WHODAS 2.0"]},
+
+    {"abbreviation":"BADL","english":"Basic Activities of Daily Living","japanese":"基本的日常生活動作","subjects":["リハビリテーション科"],"description":"食事、更衣、排泄、入浴、移乗など、日常生活の基本的な自己管理動作を指す。","related":["mBI","HRQOL"]},
+    {"abbreviation":"mBI","english":"Modified Barthel Index","japanese":"改訂バーセル指数","subjects":["リハビリテーション科"],"description":"食事、移動、排泄などのADL自立度を点数化する代表的な評価尺度。","related":["BADL","COPM"]},
+    {"abbreviation":"HRQOL","english":"Health-Related Quality of Life","japanese":"健康関連QOL","subjects":["リハビリテーション科"],"description":"健康状態が身体、心理、社会生活に与える影響を本人の視点で評価する概念。","related":["BADL","WHODAS 2.0"]},
+
+    {"abbreviation":"HHD","english":"Hand-Held Dynamometer","japanese":"ハンドヘルドダイナモメーター","subjects":["リハビリテーション科"],"description":"検者が携帯して筋力を定量測定する機器。徒手筋力検査を補完する。","related":["POMA","SPPB"]},
+
+    {"abbreviation":"POMA","english":"Performance-Oriented Mobility Assessment","japanese":"運動能力指向型可動性評価","subjects":["リハビリテーション科"],"description":"立位・歩行を評価し、主に高齢者の転倒リスクを把握する評価法。Tinettiテストともいう。","related":["SLS","5STS"]},
+    {"abbreviation":"SLS","english":"Single-Leg Stance","japanese":"片脚立位","subjects":["リハビリテーション科"],"description":"片脚で立位を保持できる時間を測るバランス評価。転倒リスク評価に用いる。","related":["POMA","5STS"]},
+    {"abbreviation":"5STS","english":"Five Times Sit-to-Stand Test","japanese":"5回立ち上がりテスト","subjects":["リハビリテーション科"],"description":"椅子から5回立ち上がる時間を測定し、下肢筋力・移動能力を評価する。","related":["POMA","SLS"]},
+
+    {"abbreviation":"FMA","english":"Fugl-Meyer Assessment","japanese":"フーグルマイヤー評価","subjects":["リハビリテーション科"],"description":"脳卒中後の運動、感覚、バランス、関節可動域などを包括的に評価する尺度。","related":["SIAS","CIMT"]},
+    {"abbreviation":"SIAS","english":"Stroke Impairment Assessment Set","japanese":"脳卒中機能障害評価セット","subjects":["リハビリテーション科"],"description":"脳卒中患者の運動、感覚、筋緊張、体幹機能などを評価する日本で広く用いられる尺度。","related":["FMA","CIMT"]},
+    {"abbreviation":"CIMT","english":"Constraint-Induced Movement Therapy","japanese":"強制使用療法","subjects":["リハビリテーション科"],"description":"健側上肢の使用を制限し、麻痺側上肢の反復使用を促す脳卒中後の訓練法。","related":["FMA","SIAS"]},
+
+    {"abbreviation":"SCIM","english":"Spinal Cord Independence Measure","japanese":"脊髄損傷自立度評価","subjects":["リハビリテーション科"],"description":"脊髄損傷者の自己管理、呼吸・排泄、移動などの自立度を評価する尺度。","related":["WISCI","NLI"]},
+    {"abbreviation":"WISCI","english":"Walking Index for Spinal Cord Injury","japanese":"脊髄損傷歩行指数","subjects":["リハビリテーション科"],"description":"脊髄損傷者の歩行に必要な介助、装具、歩行補助具を段階的に評価する指数。","related":["SCIM","NLI"]},
+    {"abbreviation":"NLI","english":"Neurological Level of Injury","japanese":"神経学的損傷高位","subjects":["リハビリテーション科"],"description":"脊髄損傷で感覚・運動機能が保たれる最も尾側の脊髄節。機能予後の基礎となる。","related":["SCIM","WISCI"]},
+    {"abbreviation":"NGB","english":"Neurogenic Bladder","japanese":"神経因性膀胱","subjects":["リハビリテーション科"],"description":"神経障害により蓄尿・排尿機能が障害された状態。脊髄損傷の排尿管理で重要である。","related":["NLI","SCIM"]},
+
+    {"abbreviation":"ALSFRS-R","english":"Revised Amyotrophic Lateral Sclerosis Functional Rating Scale","japanese":"改訂ALS機能評価尺度","subjects":["リハビリテーション科"],"description":"ALSの球症状、上肢・下肢機能、呼吸機能を評価する代表的な機能尺度。","related":["MRC","HFMSE"]},
+    {"abbreviation":"MRC","english":"Medical Research Council Muscle Strength Scale","japanese":"MRC筋力尺度","subjects":["リハビリテーション科"],"description":"筋力を0から5で段階評価する尺度。神経筋疾患や脳卒中の筋力評価に用いる。","related":["HHD","ALSFRS-R"]},
+    {"abbreviation":"HFMSE","english":"Hammersmith Functional Motor Scale Expanded","japanese":"ハマースミス運動機能評価拡大版","subjects":["リハビリテーション科"],"description":"脊髄性筋萎縮症などの運動機能を評価する尺度。座位・立位・歩行課題を含む。","related":["ALSFRS-R","MRC"]},
+
+    {"abbreviation":"KOOS","english":"Knee Injury and Osteoarthritis Outcome Score","japanese":"膝障害・変形性関節症アウトカムスコア","subjects":["リハビリテーション科"],"description":"膝の疼痛、症状、生活機能、スポーツ、QOLを患者報告で評価する尺度。","related":["HOOS","WOMAC"]},
+    {"abbreviation":"HOOS","english":"Hip Disability and Osteoarthritis Outcome Score","japanese":"股関節障害・変形性関節症アウトカムスコア","subjects":["リハビリテーション科"],"description":"股関節の疼痛、症状、生活機能、QOLを患者報告で評価する尺度。","related":["KOOS","WOMAC"]},
+    {"abbreviation":"WOMAC","english":"Western Ontario and McMaster Universities Osteoarthritis Index","japanese":"WOMAC変形性関節症指数","subjects":["リハビリテーション科"],"description":"股・膝変形性関節症の疼痛、こわばり、身体機能を評価する質問票。","related":["KOOS","HOOS"]},
+    {"abbreviation":"LEFS","english":"Lower Extremity Functional Scale","japanese":"下肢機能尺度","subjects":["リハビリテーション科"],"description":"歩行や階段昇降など20項目から下肢疾患の活動制限を評価する質問票。","related":["KOOS","HOOS"]},
+
+    {"abbreviation":"CPX","english":"Cardiopulmonary Exercise Testing","japanese":"心肺運動負荷試験","subjects":["リハビリテーション科"],"description":"運動中の呼気ガス、心電図、血圧を測定し、心肺機能と運動耐容能を評価する。","related":["AT","CRF"]},
+    {"abbreviation":"AT","english":"Anaerobic Threshold","japanese":"嫌気性代謝閾値","subjects":["リハビリテーション科"],"description":"運動負荷中に乳酸産生が増え始める強度。心臓リハビリテーションの運動処方に用いる。","related":["CPX","CRF"]},
+
+    {"abbreviation":"PCF","english":"Peak Cough Flow","japanese":"最大咳嗽流量","subjects":["リハビリテーション科"],"description":"咳嗽時の最大呼気流量。神経筋疾患などでの排痰能力と咳介助の適応を評価する。","related":["CPT","ALSFRS-R"]},
+    {"abbreviation":"CPT","english":"Chest Physical Therapy","japanese":"胸部理学療法","subjects":["リハビリテーション科"],"description":"体位排痰、胸郭介助、呼吸訓練などにより分泌物排出と換気改善を図る治療。","related":["PCF","CPX"]},
+
+    {"abbreviation":"CRF","english":"Cancer-Related Fatigue","japanese":"がん関連倦怠感","subjects":["リハビリテーション科"],"description":"がんや治療に伴う持続的な疲労感。運動療法、活動調整、栄養支援を組み合わせる。","related":["SPPB","FRAIL"]},
+    {"abbreviation":"SPPB","english":"Short Physical Performance Battery","japanese":"短縮身体機能バッテリー","subjects":["リハビリテーション科"],"description":"立位バランス、歩行速度、椅子立ち上がりで高齢者の下肢機能を評価する。","related":["5STS","FRAIL"]},
+    {"abbreviation":"FRAIL","english":"Fatigue, Resistance, Ambulation, Illnesses, Loss of Weight","japanese":"FRAIL質問票","subjects":["リハビリテーション科"],"description":"疲労、抵抗、歩行、疾患数、体重減少からフレイルを簡便にスクリーニングする。","related":["SARC-F","SPPB"]},
+    {"abbreviation":"SARC-F","english":"Strength, Assistance with Walking, Rise from a Chair, Climb Stairs, Falls","japanese":"SARC-F質問票","subjects":["リハビリテーション科"],"description":"筋力、歩行、立ち上がり、階段、転倒からサルコペニアをスクリーニングする質問票。","related":["FRAIL","SPPB"]},
+
+    {"abbreviation":"IDDSI","english":"International Dysphagia Diet Standardisation Initiative","japanese":"国際嚥下食基準化イニシアチブ","subjects":["リハビリテーション科"],"description":"食形態と飲料のとろみを国際的に段階分類し、嚥下障害患者の食支援に用いる。","related":["MWST","FILS"]},
+    {"abbreviation":"MWST","english":"Modified Water Swallowing Test","japanese":"改訂水飲みテスト","subjects":["リハビリテーション科"],"description":"少量の水を嚥下させ、むせや呼吸状態から嚥下障害をスクリーニングする検査。","related":["RSST","FILS"]},
+    {"abbreviation":"RSST","english":"Repetitive Saliva Swallowing Test","japanese":"反復唾液嚥下テスト","subjects":["リハビリテーション科"],"description":"30秒間の反復唾液嚥下回数で嚥下機能を簡便に評価するスクリーニング検査。","related":["MWST","FILS"]},
+    {"abbreviation":"FILS","english":"Food Intake Level Scale","japanese":"食事摂取レベルスケール","subjects":["リハビリテーション科"],"description":"嚥下訓練から経口摂取までの食事摂取状況を10段階で評価する尺度。","related":["IDDSI","MWST"]},
+
+    {"abbreviation":"BADS","english":"Behavioural Assessment of the Dysexecutive Syndrome","japanese":"遂行機能障害症候群の行動評価","subjects":["リハビリテーション科"],"description":"日常生活に近い課題で遂行機能障害を評価する神経心理学的検査。","related":["BIT","RBMT"]},
+    {"abbreviation":"BIT","english":"Behavioural Inattention Test","japanese":"行動性無視検査","subjects":["リハビリテーション科"],"description":"机上検査と行動検査により半側空間無視の有無と重症度を評価する。","related":["BADS","RBMT"]},
+    {"abbreviation":"RBMT","english":"Rivermead Behavioural Memory Test","japanese":"リバーミード行動記憶検査","subjects":["リハビリテーション科"],"description":"日常生活場面に近い課題で記憶障害を評価し、生活支援計画に活用する。","related":["BADS","WAIS"]},
+    {"abbreviation":"WAIS","english":"Wechsler Adult Intelligence Scale","japanese":"ウェクスラー成人知能検査","subjects":["リハビリテーション科"],"description":"成人の知的機能を言語理解、知覚推理、作動記憶、処理速度などから評価する。","related":["RBMT","BADS"]},
+
+    {"abbreviation":"HKAFO","english":"Hip-Knee-Ankle-Foot Orthosis","japanese":"股・膝・足関節足装具","subjects":["リハビリテーション科"],"description":"股、膝、足関節を支持する長下肢装具。重度下肢麻痺での立位・歩行訓練に用いる。","related":["CTLSO","GRAFO"]},
+    {"abbreviation":"CTLSO","english":"Cervico-Thoraco-Lumbo-Sacral Orthosis","japanese":"頸胸腰仙椎装具","subjects":["リハビリテーション科"],"description":"頸椎から仙椎までを支持する体幹装具。脊椎損傷や術後の固定に用いる。","related":["HKAFO","GRAFO"]},
+    {"abbreviation":"P&O","english":"Prosthetics and Orthotics","japanese":"義肢装具","subjects":["リハビリテーション科"],"description":"義肢・装具の評価、適合、訓練を扱う分野。切断や麻痺の活動・参加を支援する。","related":["HKAFO","GRAFO"]},
+    {"abbreviation":"GRAFO","english":"Ground-Reaction Ankle-Foot Orthosis","japanese":"床反力型短下肢装具","subjects":["リハビリテーション科"],"description":"床反力を利用して膝折れを抑え、立位・歩行を支援する短下肢装具。","related":["HKAFO","P&O"]},
+
+    {"abbreviation":"ST","english":"Speech Therapy","japanese":"言語聴覚療法","subjects":["リハビリテーション科"],"description":"失語症、構音障害、嚥下障害、高次脳機能障害などに対する評価と訓練を行う。","related":["SLP","IDDSI"]},
+    {"abbreviation":"SLP","english":"Speech-Language Pathologist","japanese":"言語聴覚士","subjects":["リハビリテーション科"],"description":"コミュニケーション、摂食嚥下、高次脳機能の障害を評価・支援する専門職。","related":["ST","FILS"]},
+    {"abbreviation":"NMES","english":"Neuromuscular Electrical Stimulation","japanese":"神経筋電気刺激療法","subjects":["リハビリテーション科"],"description":"末梢神経や筋を電気刺激し、筋収縮を促す治療。筋力訓練や麻痺側機能支援に用いる。","related":["TENS","CIMT"]},
+    {"abbreviation":"TENS","english":"Transcutaneous Electrical Nerve Stimulation","japanese":"経皮的電気神経刺激療法","subjects":["リハビリテーション科"],"description":"皮膚から電気刺激を加えて疼痛を緩和する物理療法。運動療法と併用することがある。","related":["NMES","CPT"]},
+
+    {"abbreviation":"RTW","english":"Return to Work","japanese":"復職支援","subjects":["リハビリテーション科"],"description":"疾患や外傷後の職場復帰を支援する過程。作業能力、職場環境、段階的復帰を調整する。","related":["CBR","COPM"]},
+    {"abbreviation":"CBR","english":"Community-Based Rehabilitation","japanese":"地域に根ざしたリハビリテーション","subjects":["リハビリテーション科"],"description":"地域資源と住民参加を活用し、障害者の健康、教育、就労、社会参加を支援する取組。","related":["RTW","WHODAS 2.0"]},
+    {"abbreviation":"COPM","english":"Canadian Occupational Performance Measure","japanese":"カナダ作業遂行測定","subjects":["リハビリテーション科"],"description":"本人が重要と考える作業の遂行度と満足度を評価し、目標設定に用いる面接尺度。","related":["BADL","RTW"]},
+    {"abbreviation":"WHODAS 2.0","english":"World Health Organization Disability Assessment Schedule 2.0","japanese":"WHO障害評価尺度2.0","subjects":["リハビリテーション科"],"description":"認知、移動、セルフケア、社会参加などを評価する国際生活機能分類に基づく尺度。","related":["CBR","HRQOL"]}
+  ]
+}

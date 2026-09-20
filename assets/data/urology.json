@@ -1,0 +1,1285 @@
+{
+  "abbreviations": [
+    {
+      "abbreviation": "LUTS",
+      "english": "Lower Urinary Tract Symptoms",
+      "japanese": "下部尿路症状",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "蓄尿・排尿・排尿後症状の総称です。",
+      "related": [
+        "UFM",
+        "OABSS"
+      ]
+    },
+    {
+      "abbreviation": "RBC/HPF",
+      "english": "Red Blood Cells per High-Power Field",
+      "japanese": "強拡大視野あたり赤血球数",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿沈渣で血尿を評価する指標です。",
+      "related": [
+        "WBC/HPF"
+      ]
+    },
+    {
+      "abbreviation": "WBC/HPF",
+      "english": "White Blood Cells per High-Power Field",
+      "japanese": "強拡大視野あたり白血球数",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿沈渣で膿尿を評価する指標です。",
+      "related": [
+        "RBC/HPF"
+      ]
+    },
+    {
+      "abbreviation": "IVU",
+      "english": "Intravenous Urography",
+      "japanese": "静脈性尿路造影",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "造影剤排泄で尿路を描出するX線検査です。",
+      "related": [
+        "CTU",
+        "RPG"
+      ]
+    },
+    {
+      "abbreviation": "CTU",
+      "english": "Computed Tomography Urography",
+      "japanese": "CT尿路造影",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "造影CTで腎実質と尿路を評価します。",
+      "related": [
+        "IVU",
+        "UTUC"
+      ]
+    },
+    {
+      "abbreviation": "MRU",
+      "english": "Magnetic Resonance Urography",
+      "japanese": "MR尿路造影",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "MRIで尿路の形態と尿流を描出します。",
+      "related": [
+        "CTU",
+        "UPJO"
+      ]
+    },
+    {
+      "abbreviation": "VCUG",
+      "english": "Voiding Cystourethrography",
+      "japanese": "排尿時膀胱尿道造影",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "排尿時造影で逆流と尿道を評価します。",
+      "related": [
+        "PUV",
+        "UTD"
+      ]
+    },
+    {
+      "abbreviation": "RPG",
+      "english": "Retrograde Pyelography",
+      "japanese": "逆行性腎盂造影",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿管から造影し上部尿路を評価します。",
+      "related": [
+        "CTU",
+        "UTUC"
+      ]
+    },
+    {
+      "abbreviation": "UDS",
+      "english": "Urodynamic Study",
+      "japanese": "尿流動態検査",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "蓄尿・排尿機能を総合的に評価します。",
+      "related": [
+        "UFM",
+        "Pdet"
+      ]
+    },
+    {
+      "abbreviation": "UFM",
+      "english": "Uroflowmetry",
+      "japanese": "尿流測定",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "自然排尿時の尿流曲線を測定します。",
+      "related": [
+        "Qmax",
+        "UDS"
+      ]
+    },
+    {
+      "abbreviation": "Qmax",
+      "english": "Maximum Flow Rate",
+      "japanese": "最大尿流率",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿流測定における最大尿流量です。",
+      "related": [
+        "UFM",
+        "BOOI"
+      ]
+    },
+    {
+      "abbreviation": "Pdet",
+      "english": "Detrusor Pressure",
+      "japanese": "排尿筋圧",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腹圧を除いた排尿筋由来の膀胱内圧です。",
+      "related": [
+        "PdetQmax",
+        "NDO"
+      ]
+    },
+    {
+      "abbreviation": "PdetQmax",
+      "english": "Detrusor Pressure at Maximum Flow",
+      "japanese": "最大尿流時排尿筋圧",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "最大尿流時の排尿筋圧です。",
+      "related": [
+        "Qmax",
+        "BOOI"
+      ]
+    },
+    {
+      "abbreviation": "MUCP",
+      "english": "Maximum Urethral Closure Pressure",
+      "japanese": "最大尿道閉鎖圧",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿道括約筋機能の評価に用います。",
+      "related": [
+        "LPP",
+        "ISD"
+      ]
+    },
+    {
+      "abbreviation": "LPP",
+      "english": "Leak Point Pressure",
+      "japanese": "尿失禁時圧",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿漏れが生じる膀胱内圧です。",
+      "related": [
+        "MUCP",
+        "ISD"
+      ]
+    },
+    {
+      "abbreviation": "cUTI",
+      "english": "Complicated Urinary Tract Infection",
+      "japanese": "複雑性尿路感染症",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "基礎疾患や尿路異常を伴う尿路感染症です。",
+      "related": [
+        "rUTI",
+        "EPN"
+      ]
+    },
+    {
+      "abbreviation": "rUTI",
+      "english": "Recurrent Urinary Tract Infection",
+      "japanese": "再発性尿路感染症",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿路感染症を反復する状態です。",
+      "related": [
+        "cUTI",
+        "ABU"
+      ]
+    },
+    {
+      "abbreviation": "ABU",
+      "english": "Asymptomatic Bacteriuria",
+      "japanese": "無症候性細菌尿",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "症状なく細菌尿を認める状態です。",
+      "related": [
+        "cUTI"
+      ]
+    },
+    {
+      "abbreviation": "EPN",
+      "english": "Emphysematous Pyelonephritis",
+      "japanese": "気腫性腎盂腎炎",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "ガス産生菌による重症腎盂腎炎です。",
+      "related": [
+        "cUTI",
+        "CTU"
+      ]
+    },
+    {
+      "abbreviation": "XGP",
+      "english": "Xanthogranulomatous Pyelonephritis",
+      "japanese": "黄色肉芽腫性腎盂腎炎",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "慢性の感染性破壊性腎炎です。",
+      "related": [
+        "KSD",
+        "cUTI"
+      ]
+    },
+    {
+      "abbreviation": "CBP",
+      "english": "Chronic Bacterial Prostatitis",
+      "japanese": "慢性細菌性前立腺炎",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "再燃しうる細菌性前立腺炎です。",
+      "related": [
+        "rUTI"
+      ]
+    },
+    {
+      "abbreviation": "KSD",
+      "english": "Kidney Stone Disease",
+      "japanese": "尿路結石症",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腎・尿管などに結石を生じる疾患群です。",
+      "related": [
+        "SWL",
+        "RIRS"
+      ]
+    },
+    {
+      "abbreviation": "SWL",
+      "english": "Shock Wave Lithotripsy",
+      "japanese": "体外衝撃波結石破砕術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "衝撃波で尿路結石を破砕する治療です。",
+      "related": [
+        "KSD",
+        "RIRS"
+      ]
+    },
+    {
+      "abbreviation": "RIRS",
+      "english": "Retrograde Intrarenal Surgery",
+      "japanese": "逆行性腎内手術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "軟性尿管鏡で腎内結石を治療します。",
+      "related": [
+        "fURS",
+        "UAS"
+      ]
+    },
+    {
+      "abbreviation": "mini-PCNL",
+      "english": "Mini Percutaneous Nephrolithotomy",
+      "japanese": "ミニ経皮的腎砕石術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "小径経皮経路で腎結石を摘出します。",
+      "related": [
+        "SWL",
+        "RIRS"
+      ]
+    },
+    {
+      "abbreviation": "fURS",
+      "english": "Flexible Ureteroscopy",
+      "japanese": "軟性尿管鏡検査・手術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "軟性尿管鏡による上部尿路の検査・治療です。",
+      "related": [
+        "RIRS",
+        "UAS"
+      ]
+    },
+    {
+      "abbreviation": "UAS",
+      "english": "Ureteral Access Sheath",
+      "japanese": "尿管アクセスシース",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "軟性尿管鏡手術を補助するシースです。",
+      "related": [
+        "fURS"
+      ]
+    },
+    {
+      "abbreviation": "UPJO",
+      "english": "Ureteropelvic Junction Obstruction",
+      "japanese": "腎盂尿管移行部閉塞",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腎盂尿管移行部の閉塞です。",
+      "related": [
+        "HN",
+        "UTD"
+      ]
+    },
+    {
+      "abbreviation": "UVJO",
+      "english": "Ureterovesical Junction Obstruction",
+      "japanese": "尿管膀胱移行部閉塞",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿管膀胱移行部の閉塞です。",
+      "related": [
+        "HUN",
+        "PMU"
+      ]
+    },
+    {
+      "abbreviation": "BOO",
+      "english": "Bladder Outlet Obstruction",
+      "japanese": "膀胱出口閉塞",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "膀胱出口の尿流抵抗が増大した状態です。",
+      "related": [
+        "BOOI",
+        "AUR"
+      ]
+    },
+    {
+      "abbreviation": "HN",
+      "english": "Hydronephrosis",
+      "japanese": "水腎症",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿流障害による腎盂・腎杯の拡張です。",
+      "related": [
+        "UPJO",
+        "HUN"
+      ]
+    },
+    {
+      "abbreviation": "HUN",
+      "english": "Hydroureteronephrosis",
+      "japanese": "水腎水尿管症",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腎盂・腎杯と尿管が拡張した状態です。",
+      "related": [
+        "UVJO",
+        "HN"
+      ]
+    },
+    {
+      "abbreviation": "NLUTD",
+      "english": "Neurogenic Lower Urinary Tract Dysfunction",
+      "japanese": "神経因性下部尿路機能障害",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "神経疾患による下部尿路機能障害です。",
+      "related": [
+        "NDO",
+        "DSD"
+      ]
+    },
+    {
+      "abbreviation": "NDO",
+      "english": "Neurogenic Detrusor Overactivity",
+      "japanese": "神経因性排尿筋過活動",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "神経疾患に伴う不随意な排尿筋収縮です。",
+      "related": [
+        "NLUTD",
+        "DSD"
+      ]
+    },
+    {
+      "abbreviation": "DSD",
+      "english": "Detrusor Sphincter Dyssynergia",
+      "japanese": "排尿筋括約筋協調不全",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "排尿筋と括約筋の協調不全です。",
+      "related": [
+        "NLUTD",
+        "CIC"
+      ]
+    },
+    {
+      "abbreviation": "UAB",
+      "english": "Underactive Bladder",
+      "japanese": "低活動膀胱",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "排尿筋収縮が不十分な状態です。",
+      "related": [
+        "CIC",
+        "UFM"
+      ]
+    },
+    {
+      "abbreviation": "CIC",
+      "english": "Clean Intermittent Catheterization",
+      "japanese": "清潔間欠導尿",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "定期的に行う清潔操作の間欠導尿です。",
+      "related": [
+        "NLUTD",
+        "UAB"
+      ]
+    },
+    {
+      "abbreviation": "DHIC",
+      "english": "Detrusor Hyperactivity with Impaired Contractility",
+      "japanese": "排尿筋過活動・収縮障害併存",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "過活動と収縮低下が併存する病態です。",
+      "related": [
+        "NDO",
+        "UAB"
+      ]
+    },
+    {
+      "abbreviation": "BPE",
+      "english": "Benign Prostatic Enlargement",
+      "japanese": "良性前立腺腫大",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "前立腺の良性腫大を示す形態学的用語です。",
+      "related": [
+        "BPO",
+        "BOO"
+      ]
+    },
+    {
+      "abbreviation": "BPO",
+      "english": "Benign Prostatic Obstruction",
+      "japanese": "良性前立腺閉塞",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "良性前立腺腫大による尿路閉塞です。",
+      "related": [
+        "BPE",
+        "BOOI"
+      ]
+    },
+    {
+      "abbreviation": "5-ARI",
+      "english": "5-Alpha-Reductase Inhibitor",
+      "japanese": "5α還元酵素阻害薬",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "前立腺容積を縮小する薬剤です。",
+      "related": [
+        "BPE",
+        "AUR"
+      ]
+    },
+    {
+      "abbreviation": "AUR",
+      "english": "Acute Urinary Retention",
+      "japanese": "急性尿閉",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "急に自排尿できなくなる状態です。",
+      "related": [
+        "BOO",
+        "SPC"
+      ]
+    },
+    {
+      "abbreviation": "BOOI",
+      "english": "Bladder Outlet Obstruction Index",
+      "japanese": "膀胱出口閉塞指数",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿流動態検査で閉塞を判定する指数です。",
+      "related": [
+        "Qmax",
+        "PdetQmax"
+      ]
+    },
+    {
+      "abbreviation": "UUI",
+      "english": "Urgency Urinary Incontinence",
+      "japanese": "切迫性尿失禁",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "強い尿意とともに尿が漏れる状態です。",
+      "related": [
+        "OABSS",
+        "MUI"
+      ]
+    },
+    {
+      "abbreviation": "MUI",
+      "english": "Mixed Urinary Incontinence",
+      "japanese": "混合性尿失禁",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腹圧性と切迫性尿失禁の併存です。",
+      "related": [
+        "UUI",
+        "ISD"
+      ]
+    },
+    {
+      "abbreviation": "ISD",
+      "english": "Intrinsic Sphincter Deficiency",
+      "japanese": "内因性尿道括約筋不全",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿道括約筋の閉鎖機能低下です。",
+      "related": [
+        "MUCP",
+        "LPP"
+      ]
+    },
+    {
+      "abbreviation": "OABSS",
+      "english": "Overactive Bladder Symptom Score",
+      "japanese": "過活動膀胱症状スコア",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "過活動膀胱症状を点数化する尺度です。",
+      "related": [
+        "UUI",
+        "SNM"
+      ]
+    },
+    {
+      "abbreviation": "ICIQ-UI SF",
+      "english": "International Consultation on Incontinence Questionnaire-Urinary Incontinence Short Form",
+      "japanese": "国際尿失禁会議尿失禁質問票短縮版",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿失禁の頻度と影響を評価する質問票です。",
+      "related": [
+        "UUI",
+        "MUI"
+      ]
+    },
+    {
+      "abbreviation": "SNM",
+      "english": "Sacral Neuromodulation",
+      "japanese": "仙骨神経調節療法",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "仙骨神経を刺激する排尿機能治療です。",
+      "related": [
+        "UUI",
+        "OABSS"
+      ]
+    },
+    {
+      "abbreviation": "RUG",
+      "english": "Retrograde Urethrography",
+      "japanese": "逆行性尿道造影",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿道損傷や狭窄を評価する造影検査です。",
+      "related": [
+        "CTC",
+        "DVIU"
+      ]
+    },
+    {
+      "abbreviation": "CTC",
+      "english": "Computed Tomography Cystography",
+      "japanese": "CT膀胱造影",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "膀胱破裂の診断に用いるCT造影です。",
+      "related": [
+        "RUG",
+        "IVP"
+      ]
+    },
+    {
+      "abbreviation": "IVP",
+      "english": "Intravenous Pyelography",
+      "japanese": "静脈性腎盂造影",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腎盂・尿管を評価する静脈性造影です。",
+      "related": [
+        "CTC",
+        "RUG"
+      ]
+    },
+    {
+      "abbreviation": "NOM",
+      "english": "Nonoperative Management",
+      "japanese": "非手術的管理",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "安定した尿路外傷を保存的に管理する方針です。",
+      "related": [
+        "CTC",
+        "RUG"
+      ]
+    },
+    {
+      "abbreviation": "ccRCC",
+      "english": "Clear Cell Renal Cell Carcinoma",
+      "japanese": "淡明細胞型腎細胞癌",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腎細胞癌で最も多い組織型です。",
+      "related": [
+        "pRCC",
+        "chRCC"
+      ]
+    },
+    {
+      "abbreviation": "pRCC",
+      "english": "Papillary Renal Cell Carcinoma",
+      "japanese": "乳頭状腎細胞癌",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "乳頭状構造を示す腎細胞癌です。",
+      "related": [
+        "ccRCC",
+        "chRCC"
+      ]
+    },
+    {
+      "abbreviation": "chRCC",
+      "english": "Chromophobe Renal Cell Carcinoma",
+      "japanese": "嫌色素性腎細胞癌",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "嫌色素性の腎細胞癌組織型です。",
+      "related": [
+        "ccRCC",
+        "pRCC"
+      ]
+    },
+    {
+      "abbreviation": "RAPN",
+      "english": "Robot-Assisted Partial Nephrectomy",
+      "japanese": "ロボット支援腎部分切除術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "ロボット支援下の腎機能温存手術です。",
+      "related": [
+        "LPN",
+        "ccRCC"
+      ]
+    },
+    {
+      "abbreviation": "CN",
+      "english": "Cytoreductive Nephrectomy",
+      "japanese": "腫瘍減量腎摘除術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "転移性腎細胞癌の腫瘍減量手術です。",
+      "related": [
+        "ccRCC"
+      ]
+    },
+    {
+      "abbreviation": "LPN",
+      "english": "Laparoscopic Partial Nephrectomy",
+      "japanese": "腹腔鏡下腎部分切除術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腹腔鏡下に腎機能を温存する手術です。",
+      "related": [
+        "RAPN"
+      ]
+    },
+    {
+      "abbreviation": "UTUC",
+      "english": "Upper Tract Urothelial Carcinoma",
+      "japanese": "上部尿路上皮癌",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腎盂または尿管に発生する尿路上皮癌です。",
+      "related": [
+        "CTU",
+        "RNU"
+      ]
+    },
+    {
+      "abbreviation": "UCC",
+      "english": "Urothelial Cell Carcinoma",
+      "japanese": "尿路上皮癌",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿路上皮から発生する悪性腫瘍です。",
+      "related": [
+        "UTUC",
+        "NMIBC"
+      ]
+    },
+    {
+      "abbreviation": "RNU",
+      "english": "Radical Nephroureterectomy",
+      "japanese": "根治的腎尿管全摘除術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腎、尿管、膀胱カフを切除する手術です。",
+      "related": [
+        "UTUC",
+        "LNU"
+      ]
+    },
+    {
+      "abbreviation": "LNU",
+      "english": "Laparoscopic Nephroureterectomy",
+      "japanese": "腹腔鏡下腎尿管全摘除術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腹腔鏡を用いる腎尿管全摘除術です。",
+      "related": [
+        "RNU",
+        "UTUC"
+      ]
+    },
+    {
+      "abbreviation": "pT",
+      "english": "Pathological Tumor Stage",
+      "japanese": "病理学的原発腫瘍分類",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "病理組織学的に判定する原発腫瘍のTNM分類です。",
+      "related": [
+        "UTUC",
+        "UCC"
+      ]
+    },
+    {
+      "abbreviation": "NMIBC",
+      "english": "Non-Muscle-Invasive Bladder Cancer",
+      "japanese": "筋層非浸潤性膀胱癌",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "膀胱筋層へ浸潤していない膀胱癌です。",
+      "related": [
+        "TURBT",
+        "MIBC"
+      ]
+    },
+    {
+      "abbreviation": "MIBC",
+      "english": "Muscle-Invasive Bladder Cancer",
+      "japanese": "筋層浸潤性膀胱癌",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "膀胱筋層へ浸潤した膀胱癌です。",
+      "related": [
+        "NMIBC",
+        "RARC"
+      ]
+    },
+    {
+      "abbreviation": "TURBT",
+      "english": "Transurethral Resection of Bladder Tumor",
+      "japanese": "経尿道的膀胱腫瘍切除術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "膀胱腫瘍の診断と治療を兼ねる手術です。",
+      "related": [
+        "NMIBC",
+        "MIBC"
+      ]
+    },
+    {
+      "abbreviation": "fPSA",
+      "english": "Free Prostate-Specific Antigen",
+      "japanese": "遊離前立腺特異抗原",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "遊離型PSAで、癌鑑別の補助に用います。",
+      "related": [
+        "PSAD",
+        "PI-RADS"
+      ]
+    },
+    {
+      "abbreviation": "PSAD",
+      "english": "Prostate-Specific Antigen Density",
+      "japanese": "PSA密度",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "PSA値を前立腺容積で除した指標です。",
+      "related": [
+        "fPSA",
+        "PI-RADS"
+      ]
+    },
+    {
+      "abbreviation": "PI-RADS",
+      "english": "Prostate Imaging Reporting and Data System",
+      "japanese": "前立腺画像診断報告・データシステム",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "前立腺MRIの標準化された評価分類です。",
+      "related": [
+        "PSAD"
+      ]
+    },
+    {
+      "abbreviation": "ADT",
+      "english": "Androgen Deprivation Therapy",
+      "japanese": "アンドロゲン除去療法",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "アンドロゲン作用を低下させる全身治療です。",
+      "related": [
+        "CRPC",
+        "mCRPC"
+      ]
+    },
+    {
+      "abbreviation": "CRPC",
+      "english": "Castration-Resistant Prostate Cancer",
+      "japanese": "去勢抵抗性前立腺癌",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "去勢レベルでも進行する前立腺癌です。",
+      "related": [
+        "ADT",
+        "mCRPC"
+      ]
+    },
+    {
+      "abbreviation": "mCRPC",
+      "english": "Metastatic Castration-Resistant Prostate Cancer",
+      "japanese": "転移性去勢抵抗性前立腺癌",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "転移を伴う去勢抵抗性前立腺癌です。",
+      "related": [
+        "CRPC",
+        "ADT"
+      ]
+    },
+    {
+      "abbreviation": "PSMA",
+      "english": "Prostate-Specific Membrane Antigen",
+      "japanese": "前立腺特異的膜抗原",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "前立腺癌の画像診断・標的治療に用います。",
+      "related": [
+        "CRPC"
+      ]
+    },
+    {
+      "abbreviation": "TGCT",
+      "english": "Testicular Germ Cell Tumor",
+      "japanese": "精巣胚細胞腫瘍",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "精巣腫瘍の大部分を占める腫瘍群です。",
+      "related": [
+        "SGCT",
+        "NSGCT"
+      ]
+    },
+    {
+      "abbreviation": "SGCT",
+      "english": "Seminomatous Germ Cell Tumor",
+      "japanese": "セミノーマ型胚細胞腫瘍",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "セミノーマから成る胚細胞腫瘍です。",
+      "related": [
+        "TGCT",
+        "NSGCT"
+      ]
+    },
+    {
+      "abbreviation": "NSGCT",
+      "english": "Nonseminomatous Germ Cell Tumor",
+      "japanese": "非セミノーマ型胚細胞腫瘍",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "非セミノーマ成分を含む胚細胞腫瘍です。",
+      "related": [
+        "TGCT",
+        "RPLND"
+      ]
+    },
+    {
+      "abbreviation": "GCNIS",
+      "english": "Germ Cell Neoplasia in Situ",
+      "japanese": "胚細胞腫瘍性上皮内腫瘍",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "精巣胚細胞腫瘍の前駆病変です。",
+      "related": [
+        "TGCT"
+      ]
+    },
+    {
+      "abbreviation": "RPLND",
+      "english": "Retroperitoneal Lymph Node Dissection",
+      "japanese": "後腹膜リンパ節郭清術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "精巣腫瘍などで行う後腹膜郭清術です。",
+      "related": [
+        "NSGCT"
+      ]
+    },
+    {
+      "abbreviation": "IIEF",
+      "english": "International Index of Erectile Function",
+      "japanese": "国際勃起機能スコア",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "勃起機能を評価する自己記入式質問票です。",
+      "related": [
+        "PDE5i"
+      ]
+    },
+    {
+      "abbreviation": "NOA",
+      "english": "Nonobstructive Azoospermia",
+      "japanese": "非閉塞性無精子症",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "精子形成障害による無精子症です。",
+      "related": [
+        "TESE"
+      ]
+    },
+    {
+      "abbreviation": "TESE",
+      "english": "Testicular Sperm Extraction",
+      "japanese": "精巣内精子採取術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "精巣組織から精子を採取する手術です。",
+      "related": [
+        "NOA",
+        "MESA"
+      ]
+    },
+    {
+      "abbreviation": "MESA",
+      "english": "Microsurgical Epididymal Sperm Aspiration",
+      "japanese": "顕微鏡下精巣上体精子吸引術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "精巣上体から精子を採取する手術です。",
+      "related": [
+        "TESE"
+      ]
+    },
+    {
+      "abbreviation": "PUV",
+      "english": "Posterior Urethral Valves",
+      "japanese": "後部尿道弁",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "男児の後部尿道に生じる先天性閉塞です。",
+      "related": [
+        "VCUG",
+        "UTD"
+      ]
+    },
+    {
+      "abbreviation": "UDT",
+      "english": "Undescended Testis",
+      "japanese": "停留精巣",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "精巣が陰嚢内まで下降していない状態です。",
+      "related": [
+        "TGCT"
+      ]
+    },
+    {
+      "abbreviation": "EEC",
+      "english": "Exstrophy-Epispadias Complex",
+      "japanese": "膀胱外反・尿道上裂複合体",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "膀胱外反と尿道上裂を含む先天性疾患群です。",
+      "related": [
+        "CIC"
+      ]
+    },
+    {
+      "abbreviation": "PMU",
+      "english": "Primary Megaureter",
+      "japanese": "原発性巨大尿管",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "先天性の通過障害による巨大尿管です。",
+      "related": [
+        "UVJO",
+        "HUN"
+      ]
+    },
+    {
+      "abbreviation": "UTD",
+      "english": "Urinary Tract Dilation",
+      "japanese": "尿路拡張分類",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "胎児・小児の尿路拡張を層別化する分類です。",
+      "related": [
+        "HN",
+        "SFU"
+      ]
+    },
+    {
+      "abbreviation": "SFU",
+      "english": "Society for Fetal Urology",
+      "japanese": "胎児泌尿器科学会水腎症分類",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "小児水腎症の超音波グレードです。",
+      "related": [
+        "UTD",
+        "HN"
+      ]
+    },
+    {
+      "abbreviation": "TURP",
+      "english": "Transurethral Resection of the Prostate",
+      "japanese": "経尿道的前立腺切除術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "内視鏡で前立腺組織を切除する手術です。",
+      "related": [
+        "BPO",
+        "HoLEP"
+      ]
+    },
+    {
+      "abbreviation": "HoLEP",
+      "english": "Holmium Laser Enucleation of the Prostate",
+      "japanese": "ホルミウムレーザー前立腺核出術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "レーザーで前立腺腺腫を核出する手術です。",
+      "related": [
+        "TURP",
+        "PVP"
+      ]
+    },
+    {
+      "abbreviation": "PVP",
+      "english": "Photoselective Vaporization of the Prostate",
+      "japanese": "光選択的前立腺蒸散術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "レーザーで前立腺を蒸散する手術です。",
+      "related": [
+        "TURP"
+      ]
+    },
+    {
+      "abbreviation": "RALP",
+      "english": "Robot-Assisted Laparoscopic Prostatectomy",
+      "japanese": "ロボット支援腹腔鏡下前立腺全摘除術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "限局性前立腺癌に対するロボット支援手術です。",
+      "related": [
+        "ADT",
+        "IIEF"
+      ]
+    },
+    {
+      "abbreviation": "ONB",
+      "english": "Orthotopic Neobladder",
+      "japanese": "自排尿型新膀胱",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "腸管を用いる自排尿型の尿路変更術です。",
+      "related": [
+        "RARC",
+        "MIBC"
+      ]
+    },
+    {
+      "abbreviation": "SPC",
+      "english": "Suprapubic Catheter",
+      "japanese": "膀胱瘻カテーテル",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "恥骨上から膀胱へ留置するカテーテルです。",
+      "related": [
+        "AUR",
+        "CIC"
+      ]
+    },
+    {
+      "abbreviation": "DJ",
+      "english": "Double-J Ureteral Stent",
+      "japanese": "ダブルJ尿管ステント",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿管閉塞解除などに用いる内留置ステントです。",
+      "related": [
+        "HUN",
+        "RIRS"
+      ]
+    },
+    {
+      "abbreviation": "DVIU",
+      "english": "Direct Vision Internal Urethrotomy",
+      "japanese": "直視下内尿道切開術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "内視鏡で尿道狭窄部を切開する手術です。",
+      "related": [
+        "RUG"
+      ]
+    },
+    {
+      "abbreviation": "TUL",
+      "english": "Transurethral Ureterolithotripsy",
+      "japanese": "経尿道的尿管砕石術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "尿管鏡で尿管結石を砕石・摘出します。",
+      "related": [
+        "KSD",
+        "RIRS"
+      ]
+    },
+    {
+      "abbreviation": "RARC",
+      "english": "Robot-Assisted Radical Cystectomy",
+      "japanese": "ロボット支援根治的膀胱全摘除術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "筋層浸潤性膀胱癌に対する根治手術です。",
+      "related": [
+        "MIBC",
+        "ONB"
+      ]
+    },
+    {
+      "abbreviation": "BNI",
+      "english": "Bladder Neck Incision",
+      "japanese": "膀胱頸部切開術",
+      "subjects": [
+        "泌尿器科"
+      ],
+      "description": "膀胱頸部閉塞に対する内視鏡手術です。",
+      "related": [
+        "BOO"
+      ]
+    }
+  ]
+}

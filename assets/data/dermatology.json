@@ -1,0 +1,1004 @@
+{
+  "abbreviations": [
+    {
+      "abbreviation": "DLQI",
+      "english": "Dermatology Life Quality Index",
+      "japanese": "皮膚疾患生活の質指標",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "皮膚疾患生活の質指標に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "IGA",
+      "english": "Investigator's Global Assessment",
+      "japanese": "医師による全般重症度評価",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "医師による全般重症度評価に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "SCORAD",
+      "english": "Scoring Atopic Dermatitis",
+      "japanese": "アトピー性皮膚炎重症度指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "アトピー性皮膚炎重症度指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "EASI",
+      "english": "Eczema Area and Severity Index",
+      "japanese": "湿疹面積・重症度指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "湿疹面積・重症度指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "TDS",
+      "english": "Total Dermoscopy Score",
+      "japanese": "総ダーモスコピー所見スコア",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "総ダーモスコピー所見スコアに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "DIF",
+      "english": "Direct Immunofluorescence",
+      "japanese": "直接蛍光抗体法",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "直接蛍光抗体法に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "IIF",
+      "english": "Indirect Immunofluorescence",
+      "japanese": "間接蛍光抗体法",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "間接蛍光抗体法に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "H&E",
+      "english": "Hematoxylin and Eosin Stain",
+      "japanese": "ヘマトキシリン・エオジン染色",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "ヘマトキシリン・エオジン染色に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "CSU",
+      "english": "Chronic Spontaneous Urticaria",
+      "japanese": "慢性特発性蕁麻疹",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "慢性特発性蕁麻疹に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "CIndU",
+      "english": "Chronic Inducible Urticaria",
+      "japanese": "慢性誘発性蕁麻疹",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "慢性誘発性蕁麻疹に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "AAE",
+      "english": "Acquired Angioedema",
+      "japanese": "後天性血管性浮腫",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "後天性血管性浮腫に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "UAS7",
+      "english": "Urticaria Activity Score over 7 Days",
+      "japanese": "7日間蕁麻疹活動性スコア",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "7日間蕁麻疹活動性スコアに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "UCT",
+      "english": "Urticaria Control Test",
+      "japanese": "蕁麻疹コントロールテスト",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "蕁麻疹コントロールテストに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "CADR",
+      "english": "Cutaneous Adverse Drug Reaction",
+      "japanese": "薬剤性皮膚有害反応",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "薬剤性皮膚有害反応に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "DRESS",
+      "english": "Drug Reaction with Eosinophilia and Systemic Symptoms",
+      "japanese": "好酸球増多・全身症状を伴う薬剤反応",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "好酸球増多・全身症状を伴う薬剤反応に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "DIHS",
+      "english": "Drug-Induced Hypersensitivity Syndrome",
+      "japanese": "薬剤性過敏症症候群",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "薬剤性過敏症症候群に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "SJS",
+      "english": "Stevens-Johnson Syndrome",
+      "japanese": "スティーヴンス・ジョンソン症候群",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "スティーヴンス・ジョンソン症候群に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "TEN",
+      "english": "Toxic Epidermal Necrolysis",
+      "japanese": "中毒性表皮壊死融解症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "中毒性表皮壊死融解症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "AGEP",
+      "english": "Acute Generalized Exanthematous Pustulosis",
+      "japanese": "急性汎発性発疹性膿疱症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "急性汎発性発疹性膿疱症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "FDE",
+      "english": "Fixed Drug Eruption",
+      "japanese": "固定薬疹",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "固定薬疹に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "EBA",
+      "english": "Epidermolysis Bullosa Acquisita",
+      "japanese": "後天性表皮水疱症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "後天性表皮水疱症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "ABSIS",
+      "english": "Autoimmune Bullous Skin Disorder Intensity Score",
+      "japanese": "自己免疫性水疱症重症度スコア",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "自己免疫性水疱症重症度スコアに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "PDAI",
+      "english": "Pemphigus Disease Area Index",
+      "japanese": "天疱瘡病変面積指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "天疱瘡病変面積指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "BPDAI",
+      "english": "Bullous Pemphigoid Disease Area Index",
+      "japanese": "水疱性類天疱瘡病変面積指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "水疱性類天疱瘡病変面積指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "Dsg1",
+      "english": "Desmoglein 1",
+      "japanese": "デスモグレイン1",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "デスモグレイン1に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "Dsg3",
+      "english": "Desmoglein 3",
+      "japanese": "デスモグレイン3",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "デスモグレイン3に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "BP180",
+      "english": "Bullous Pemphigoid Antigen 180",
+      "japanese": "BP180抗原",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "BP180抗原に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "BP230",
+      "english": "Bullous Pemphigoid Antigen 230",
+      "japanese": "BP230抗原",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "BP230抗原に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "PsO",
+      "english": "Psoriasis",
+      "japanese": "乾癬",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "乾癬に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "PsA",
+      "english": "Psoriatic Arthritis",
+      "japanese": "乾癬性関節炎",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "乾癬性関節炎に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "PASI",
+      "english": "Psoriasis Area and Severity Index",
+      "japanese": "乾癬面積・重症度指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "乾癬面積・重症度指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "GPP",
+      "english": "Generalized Pustular Psoriasis",
+      "japanese": "汎発性膿疱性乾癬",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "汎発性膿疱性乾癬に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "PGA",
+      "english": "Physician's Global Assessment",
+      "japanese": "医師全般評価",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "医師全般評価に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "PSSI",
+      "english": "Psoriasis Scalp Severity Index",
+      "japanese": "頭部乾癬重症度指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "頭部乾癬重症度指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "NAPSI",
+      "english": "Nail Psoriasis Severity Index",
+      "japanese": "爪乾癬重症度指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "爪乾癬重症度指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "CLE",
+      "english": "Cutaneous Lupus Erythematosus",
+      "japanese": "皮膚ループスエリテマトーデス",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "皮膚ループスエリテマトーデスに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "ACLE",
+      "english": "Acute Cutaneous Lupus Erythematosus",
+      "japanese": "急性皮膚ループス",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "急性皮膚ループスに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "SCLE",
+      "english": "Subacute Cutaneous Lupus Erythematosus",
+      "japanese": "亜急性皮膚ループス",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "亜急性皮膚ループスに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "DLE",
+      "english": "Discoid Lupus Erythematosus",
+      "japanese": "円板状ループス",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "円板状ループスに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "CLASI",
+      "english": "Cutaneous Lupus Area and Severity Index",
+      "japanese": "皮膚ループス面積・重症度指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "皮膚ループス面積・重症度指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "CDASI",
+      "english": "Cutaneous Dermatomyositis Disease Area and Severity Index",
+      "japanese": "皮膚筋炎病変面積・重症度指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "皮膚筋炎病変面積・重症度指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "ABSSSI",
+      "english": "Acute Bacterial Skin and Skin Structure Infection",
+      "japanese": "急性細菌性皮膚・皮膚構造感染症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "急性細菌性皮膚・皮膚構造感染症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "SSSS",
+      "english": "Staphylococcal Scalded Skin Syndrome",
+      "japanese": "ブドウ球菌性熱傷様皮膚症候群",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "ブドウ球菌性熱傷様皮膚症候群に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "NSTI",
+      "english": "Necrotizing Soft Tissue Infection",
+      "japanese": "壊死性軟部組織感染症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "壊死性軟部組織感染症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "GABHS",
+      "english": "Group A Beta-Hemolytic Streptococcus",
+      "japanese": "A群β溶血性連鎖球菌",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "A群β溶血性連鎖球菌に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "HSV",
+      "english": "Herpes Simplex Virus",
+      "japanese": "単純ヘルペスウイルス",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "単純ヘルペスウイルスに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "MC",
+      "english": "Molluscum Contagiosum",
+      "japanese": "伝染性軟属腫",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "伝染性軟属腫に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "HZ",
+      "english": "Herpes Zoster",
+      "japanese": "帯状疱疹",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "帯状疱疹に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "HZO",
+      "english": "Herpes Zoster Ophthalmicus",
+      "japanese": "眼部帯状疱疹",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "眼部帯状疱疹に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "KOH",
+      "english": "Potassium Hydroxide Preparation",
+      "japanese": "水酸化カリウム直接鏡検",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "水酸化カリウム直接鏡検に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "GMS",
+      "english": "Grocott Methenamine Silver Stain",
+      "japanese": "グロコット染色",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "グロコット染色に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "TBF",
+      "english": "Tinea Barbae Folliculitis",
+      "japanese": "白癬性毛包炎",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "白癬性毛包炎に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "FFA",
+      "english": "Frontal Fibrosing Alopecia",
+      "japanese": "前頭部線維化性脱毛症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "前頭部線維化性脱毛症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "CCCA",
+      "english": "Central Centrifugal Cicatricial Alopecia",
+      "japanese": "中心性遠心性瘢痕性脱毛症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "中心性遠心性瘢痕性脱毛症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "FPHL",
+      "english": "Female Pattern Hair Loss",
+      "japanese": "女性型脱毛症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "女性型脱毛症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "PIH",
+      "english": "Postinflammatory Hyperpigmentation",
+      "japanese": "炎症後色素沈着",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "炎症後色素沈着に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "VASI",
+      "english": "Vitiligo Area Scoring Index",
+      "japanese": "白斑面積スコア",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "白斑面積スコアに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "VIDA",
+      "english": "Vitiligo Disease Activity Score",
+      "japanese": "白斑疾患活動性スコア",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "白斑疾患活動性スコアに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "TAO",
+      "english": "Thromboangiitis Obliterans",
+      "japanese": "閉塞性血栓血管炎",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "閉塞性血栓血管炎に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "CSVV",
+      "english": "Cutaneous Small-Vessel Vasculitis",
+      "japanese": "皮膚小血管炎",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "皮膚小血管炎に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "LCV",
+      "english": "Leukocytoclastic Vasculitis",
+      "japanese": "白血球破砕性血管炎",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "白血球破砕性血管炎に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "SK",
+      "english": "Seborrheic Keratosis",
+      "japanese": "脂漏性角化症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "脂漏性角化症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "DF",
+      "english": "Dermatofibroma",
+      "japanese": "皮膚線維腫",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "皮膚線維腫に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "EIC",
+      "english": "Epidermal Inclusion Cyst",
+      "japanese": "表皮嚢腫",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "表皮嚢腫に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "BCC",
+      "english": "Basal Cell Carcinoma",
+      "japanese": "基底細胞癌",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "基底細胞癌に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "AK",
+      "english": "Actinic Keratosis",
+      "japanese": "日光角化症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "日光角化症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "cSCC",
+      "english": "Cutaneous Squamous Cell Carcinoma",
+      "japanese": "皮膚扁平上皮癌",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "皮膚扁平上皮癌に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "MCC",
+      "english": "Merkel Cell Carcinoma",
+      "japanese": "メルケル細胞癌",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "メルケル細胞癌に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "LMM",
+      "english": "Lentigo Maligna Melanoma",
+      "japanese": "悪性黒子型黒色腫",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "悪性黒子型黒色腫に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "DFSP",
+      "english": "Dermatofibrosarcoma Protuberans",
+      "japanese": "隆起性皮膚線維肉腫",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "隆起性皮膚線維肉腫に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "KA",
+      "english": "Keratoacanthoma",
+      "japanese": "ケラトアカントーマ",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "ケラトアカントーマに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "EB",
+      "english": "Epidermolysis Bullosa",
+      "japanese": "表皮水疱症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "表皮水疱症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "EBS",
+      "english": "Epidermolysis Bullosa Simplex",
+      "japanese": "単純型表皮水疱症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "単純型表皮水疱症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "JEB",
+      "english": "Junctional Epidermolysis Bullosa",
+      "japanese": "接合部型表皮水疱症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "接合部型表皮水疱症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "DEB",
+      "english": "Dystrophic Epidermolysis Bullosa",
+      "japanese": "栄養障害型表皮水疱症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "栄養障害型表皮水疱症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "XP",
+      "english": "Xeroderma Pigmentosum",
+      "japanese": "色素性乾皮症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "色素性乾皮症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "IP",
+      "english": "Incontinentia Pigmenti",
+      "japanese": "色素失調症",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "色素失調症に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "NB-UVB",
+      "english": "Narrowband Ultraviolet B",
+      "japanese": "ナローバンドUVB療法",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "ナローバンドUVB療法に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "BB-UVB",
+      "english": "Broadband Ultraviolet B",
+      "japanese": "ブロードバンドUVB療法",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "ブロードバンドUVB療法に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "PUVA",
+      "english": "Psoralen plus Ultraviolet A",
+      "japanese": "ソラレン併用UVA療法",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "ソラレン併用UVA療法に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "UVA1",
+      "english": "Ultraviolet A1",
+      "japanese": "UVA1療法",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "UVA1療法に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "PDT",
+      "english": "Photodynamic Therapy",
+      "japanese": "光線力学的療法",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "光線力学的療法に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "CsA",
+      "english": "Cyclosporine A",
+      "japanese": "シクロスポリンA",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "シクロスポリンAに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "PDE4i",
+      "english": "Phosphodiesterase 4 Inhibitor",
+      "japanese": "ホスホジエステラーゼ4阻害薬",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "ホスホジエステラーゼ4阻害薬に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "IL-4Rαi",
+      "english": "Interleukin-4 Receptor Alpha Inhibitor",
+      "japanese": "IL-4受容体α阻害薬",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "IL-4受容体α阻害薬に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "IL-13i",
+      "english": "Interleukin-13 Inhibitor",
+      "japanese": "IL-13阻害薬",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "IL-13阻害薬に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "JAK1i",
+      "english": "Janus Kinase 1 Inhibitor",
+      "japanese": "JAK1阻害薬",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "JAK1阻害薬に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "JAK3i",
+      "english": "Janus Kinase 3 Inhibitor",
+      "japanese": "JAK3阻害薬",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "JAK3阻害薬に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "LPPAI",
+      "english": "Lichen Planopilaris Activity Index",
+      "japanese": "扁平苔癬性毛包炎活動性指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "扁平苔癬性毛包炎活動性指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "MASI",
+      "english": "Melasma Area and Severity Index",
+      "japanese": "肝斑面積・重症度指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "肝斑面積・重症度指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "VETF",
+      "english": "Vitiligo European Task Force Assessment",
+      "japanese": "白斑欧州タスクフォース評価",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "白斑欧州タスクフォース評価に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "F-VASI",
+      "english": "Facial Vitiligo Area Scoring Index",
+      "japanese": "顔面白斑面積スコア",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "顔面白斑面積スコアに関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "EG",
+      "english": "Ecthyma Gangrenosum",
+      "japanese": "壊疽性膿瘡",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "壊疽性膿瘡に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "NMSC",
+      "english": "Nonmelanoma Skin Cancer",
+      "japanese": "非黒色腫皮膚癌",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "非黒色腫皮膚癌に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "WLE",
+      "english": "Wide Local Excision",
+      "japanese": "広範局所切除",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "広範局所切除に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "AJCC",
+      "english": "American Joint Committee on Cancer",
+      "japanese": "米国がん合同委員会病期分類",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "米国がん合同委員会病期分類に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "BCCSI",
+      "english": "Basal Cell Carcinoma Severity Index",
+      "japanese": "基底細胞癌重症度指数",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "基底細胞癌重症度指数に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "MMS",
+      "english": "Mohs Micrographic Surgery",
+      "japanese": "モース顕微鏡手術",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "モース顕微鏡手術に関する皮膚科の重要な略語です。",
+      "related": []
+    },
+    {
+      "abbreviation": "DTIC",
+      "english": "Dacarbazine",
+      "japanese": "ダカルバジン",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "悪性黒色腫の薬物療法に用いられる抗悪性腫瘍薬です。",
+      "related": []
+    },
+    {
+      "abbreviation": "VSS",
+      "english": "Vancouver Scar Scale",
+      "japanese": "バンクーバー瘢痕スケール",
+      "subjects": [
+        "皮膚科"
+      ],
+      "description": "バンクーバー瘢痕スケールに関する皮膚科の重要な略語です。",
+      "related": []
+    }
+  ]
+}
