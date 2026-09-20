@@ -1,4 +1,4 @@
-name: Deploy Flutter web app to GitHub Pages
+name: 医療略語アプリを公開
 
 on:
   push:
