@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ihcinihs.github.io/medical_abbreviations/sitemap.xml
