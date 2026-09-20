@@ -20,6 +20,21 @@ class AbbreviationDetailScreen extends ConsumerWidget {
     return CupertinoPageScaffold(
       navigationBar: CupertinoNavigationBar(
         middle: Text(item.abbreviation),
+        trailing: CupertinoButton(
+          padding: EdgeInsets.zero,
+          minimumSize: Size.zero,
+          onPressed: () {
+            Navigator.of(context).popUntil((route) => route.isFirst);
+          },
+          child: const Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Icon(CupertinoIcons.house_fill, size: 16),
+              SizedBox(width: 4),
+              Text('ホーム'),
+            ],
+          ),
+        ),
         border: null,
       ),
       child: SafeArea(
