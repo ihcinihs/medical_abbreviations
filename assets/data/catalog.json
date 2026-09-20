@@ -95,6 +95,10 @@
     {
       "subject": "公衆衛生・医療安全",
       "path": "assets/data/public_health_medical_safety.json"
+    },
+    {
+      "subject": "薬理学",
+      "path": "assets/data/pharmacology.json"
     }
   ]
 }
